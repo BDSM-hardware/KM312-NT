@@ -1,0 +1,197 @@
+v 20201216 2
+C 40000 40000 0 0 0 title-B.sym
+C 41300 44800 1 0 0 vpulse-1.sym
+{
+T 42000 45450 5 10 1 1 0 0 1
+refdes=V10
+T 42000 45650 5 10 0 0 0 0 1
+device=vpulse
+T 42000 45850 5 10 0 0 0 0 1
+footprint=none
+T 42000 45150 5 10 1 1 0 0 1
+value=DC 0 PWL(  0 0 1000uS 0 1000.1uS 5 1047uS 5 1047.1uS 0 1050uS 0 1050.1uS -5 1097 -5 1097.1 0 )
+}
+C 40600 41600 1 0 0 spice-model-1.sym
+{
+T 40700 42300 5 10 0 1 0 0 1
+device=model
+T 40700 42200 5 10 1 1 0 0 1
+refdes=A2
+T 41900 41900 5 10 1 1 0 0 1
+model-name=DBAT85
+T 40600 41600 5 10 0 1 0 0 1
+type=D
+T 41100 41700 5 10 1 1 0 0 1
+model=IS = 2.076E-7 N = 1.023 BV = 33 IBV = 10E-6 RS = 2.326 CJO = 1.21E-11 VJ = 0.1319 M = 0.2904 EG = 0.69 XTI = 2 
+}
+C 51500 42700 1 0 0 spice-model-1.sym
+{
+T 51600 43400 5 10 0 1 0 0 1
+device=model
+T 51600 43300 5 10 1 1 0 0 1
+refdes=A4
+T 52800 43000 5 10 1 1 0 0 1
+model-name=AMP_OP
+T 52000 42800 5 10 1 1 0 0 1
+file=AMP_OP.cir
+}
+C 40900 49200 1 0 0 spice-options-1.sym
+{
+T 41000 49500 5 10 0 1 0 0 1
+device=options
+T 41000 49600 5 10 1 1 0 0 1
+refdes=A6
+T 41100 49300 5 10 1 1 0 0 1
+value=*tran 10uS 1.2mS
+}
+C 43000 45600 1 0 0 gnd-1.sym
+C 41600 46700 1 0 0 resistor-2.sym
+{
+T 42000 47050 5 10 0 0 0 0 1
+device=RESISTOR
+T 41600 46700 5 10 0 1 0 0 1
+footprint=1206
+T 41600 46700 5 10 0 0 0 0 1
+tolerance=1%
+T 41600 46700 5 10 0 0 0 0 1
+comment=/
+T 41800 47000 5 10 1 1 0 0 1
+refdes=R120
+T 42300 47000 5 10 1 1 0 0 1
+value=2.21K
+}
+C 43600 46900 1 180 0 resistor-2.sym
+{
+T 43200 46550 5 10 0 0 180 0 1
+device=RESISTOR
+T 43600 46900 5 10 0 0 90 0 1
+footprint=1206
+T 43600 46900 5 10 0 0 0 0 1
+comment=/
+T 43600 46900 5 10 0 0 0 0 1
+tolerance=1%
+T 43200 47100 5 10 1 1 180 0 1
+refdes=R121
+T 43800 47100 5 10 1 1 180 0 1
+value=34.0K
+}
+N 42700 46800 42500 46800 4
+C 42800 45900 1 90 0 capacitor-1.sym
+{
+T 42100 46100 5 10 0 0 90 0 1
+device=CAPACITOR
+T 41900 46100 5 10 0 0 90 0 1
+symversion=0.1
+T 42800 45900 5 10 0 0 0 0 1
+comment=/
+T 42800 45900 5 10 0 0 0 0 1
+footprint=0805
+T 42400 45700 5 10 1 1 90 0 1
+refdes=C106
+T 42400 46200 5 10 1 1 90 0 1
+value=470pF
+}
+C 43900 45900 1 90 0 capacitor-1.sym
+{
+T 43200 46100 5 10 0 0 90 0 1
+device=CAPACITOR
+T 43000 46100 5 10 0 0 90 0 1
+symversion=0.1
+T 43900 45900 5 10 0 0 0 0 1
+comment=/
+T 43900 45900 5 10 0 0 0 0 1
+footprint=0805
+T 43900 45900 5 10 0 0 0 0 1
+tolerance=5%
+T 43400 45700 5 10 1 1 90 0 1
+refdes=C109
+T 43400 46200 5 10 1 1 90 0 1
+value=33pF
+}
+N 42600 45900 43700 45900 4
+N 43600 46800 44100 46800 4
+N 41600 46800 41600 46000 4
+C 41500 44500 1 0 0 gnd-1.sym
+C 44100 46100 1 0 0 vcvs-1.sym
+{
+T 44300 47150 5 10 0 0 0 0 1
+device=SPICE-vcvs
+T 44700 46950 5 10 1 1 0 0 1
+refdes=E1
+T 44300 47350 5 10 0 0 0 0 1
+symversion=0.1
+T 44800 46050 5 10 1 0 0 5 1
+value=1
+}
+C 44000 45900 1 0 0 gnd-1.sym
+C 45500 45900 1 0 0 gnd-1.sym
+C 45600 46700 1 0 0 resistor-2.sym
+{
+T 46000 47050 5 10 0 0 0 0 1
+device=RESISTOR
+T 45600 46700 5 10 0 1 0 0 1
+footprint=1206
+T 45600 46700 5 10 0 0 0 0 1
+tolerance=1%
+T 45600 46700 5 10 0 0 0 0 1
+comment=/
+T 45800 47000 5 10 1 1 0 0 1
+refdes=R122
+T 46300 47000 5 10 1 1 0 0 1
+value=10K
+}
+N 47700 46800 46500 46800 4
+C 47000 45900 1 90 0 capacitor-1.sym
+{
+T 46300 46100 5 10 0 0 90 0 1
+device=CAPACITOR
+T 46100 46100 5 10 0 0 90 0 1
+symversion=0.1
+T 47000 45900 5 10 0 0 0 0 1
+comment=/
+T 47000 45900 5 10 0 0 0 0 1
+footprint=0805
+T 46600 45700 5 10 1 1 90 0 1
+refdes=C108
+T 46600 46200 5 10 1 1 90 0 1
+value=100pF
+}
+C 46700 45600 1 0 0 gnd-1.sym
+C 47500 45900 1 90 0 resistor-2.sym
+{
+T 47150 46300 5 10 0 0 90 0 1
+device=RESISTOR
+T 47500 45900 5 10 0 1 90 0 1
+footprint=1206
+T 47500 45900 5 10 0 0 90 0 1
+tolerance=1%
+T 47500 45900 5 10 0 0 90 0 1
+comment=/
+T 47200 45800 5 10 1 1 90 0 1
+refdes=R123
+T 47200 46500 5 10 1 1 90 0 1
+value=1K
+}
+C 47300 45600 1 0 0 gnd-1.sym
+C 47700 46700 1 0 0 output-2.sym
+{
+T 48600 46900 5 10 1 1 0 0 1
+net=cnv_pulses_I:1
+T 47900 47400 5 10 0 0 0 0 1
+device=none
+T 48600 46800 5 10 0 1 0 1 1
+value=OUTPUT
+}
+C 45700 42600 1 0 0 gnd-1.sym
+C 45600 44100 1 0 0 vcc-1.sym
+C 45500 42900 1 0 0 vdc-1.sym
+{
+T 46200 43550 5 10 1 1 0 0 1
+refdes=V1
+T 46200 43750 5 10 0 0 0 0 1
+device=VOLTAGE_SOURCE
+T 46200 43950 5 10 0 0 0 0 1
+footprint=none
+T 46200 43350 5 10 1 1 0 0 1
+value=DC 6V
+}
