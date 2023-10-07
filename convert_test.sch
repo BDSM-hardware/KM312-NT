@@ -9,7 +9,7 @@ device=vpulse
 T 42000 45850 5 10 0 0 0 0 1
 footprint=none
 T 42000 45150 5 10 1 1 0 0 1
-value=DC 0 PWL(  0 0 1000uS 0 1000.1uS 5 1047uS 5 1047.1uS 0 1050uS 0 1050.1uS -5 1097 -5 1097.1 0 )
+value=DC 0 PWL(  0 0 1000uS 0 1000.1uS 5 1047uS 5 1047.1uS 0 1050uS 0 1050.1uS -5 1097uS -5 1097.1uS 0 )
 }
 C 40600 41600 1 0 0 spice-model-1.sym
 {
@@ -29,11 +29,11 @@ C 51500 42700 1 0 0 spice-model-1.sym
 T 51600 43400 5 10 0 1 0 0 1
 device=model
 T 51600 43300 5 10 1 1 0 0 1
-refdes=A4
+refdes=A5
 T 52800 43000 5 10 1 1 0 0 1
-model-name=AMP_OP
+model-name=transfo
 T 52000 42800 5 10 1 1 0 0 1
-file=AMP_OP.cir
+file=transfo.cir
 }
 C 40900 49200 1 0 0 spice-options-1.sym
 {
@@ -42,7 +42,7 @@ device=options
 T 41000 49600 5 10 1 1 0 0 1
 refdes=A6
 T 41100 49300 5 10 1 1 0 0 1
-value=*tran 10uS 1.2mS
+value=*tran 10uS 1.2mS 0.9mS
 }
 C 43000 45600 1 0 0 gnd-1.sym
 C 41600 46700 1 0 0 resistor-2.sym
@@ -194,4 +194,26 @@ T 46200 43950 5 10 0 0 0 0 1
 footprint=none
 T 46200 43350 5 10 1 1 0 0 1
 value=DC 6V
+}
+C 51500 43700 1 0 0 spice-model-1.sym
+{
+T 51600 44400 5 10 0 1 0 0 1
+device=model
+T 51600 44300 5 10 1 1 0 0 1
+refdes=A4
+T 52800 44000 5 10 1 1 0 0 1
+model-name=AMP_OP
+T 52000 43800 5 10 1 1 0 0 1
+file=AMP_OP.cir
+}
+C 51500 44700 1 0 0 spice-model-1.sym
+{
+T 51600 45400 5 10 0 1 0 0 1
+device=model
+T 51600 45300 5 10 1 1 0 0 1
+refdes=A3
+T 52800 45000 5 10 1 1 0 0 1
+model-name=AMP_OP_FAST
+T 52000 44800 5 10 1 1 0 0 1
+file=AMP_OP_FAST.cir
 }
