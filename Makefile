@@ -15,11 +15,11 @@ pcb		: $(DESTDIR)km312_nt.net
 
 schemas		: $(DESTDIR)sch_build_date
 
-$(DESTDIR)km312_nt.partslist_by_refdes.txt : $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch
-	$(NETLIST_PROG) -g partslist1 -o $(DESTDIR)km312_nt.partslist_by_refdes.txt $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch
+$(DESTDIR)km312_nt.partslist_by_refdes.txt : $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)km312_feedback.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch
+	$(NETLIST_PROG) -g partslist1 -o $(DESTDIR)km312_nt.partslist_by_refdes.txt $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch $(SRCDIR)km312_feedback.sch
 
-$(DESTDIR)km312_nt.partslist_by_value.txt : $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch
-	$(NETLIST_PROG) -g partslist3 -o $(DESTDIR)km312_nt.partslist_by_value.txt $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch
+$(DESTDIR)km312_nt.partslist_by_value.txt : $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)km312_feedback.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch
+	$(NETLIST_PROG) -g partslist3 -o $(DESTDIR)km312_nt.partslist_by_value.txt $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch $(SRCDIR)km312_feedback.sch
 
 
 $(BUILDDIR)AMP_OP.cir	:	$(SRCDIR)AMP_OP.sch
@@ -32,22 +32,24 @@ $(BUILDDIR)convert_test.cir	:	$(SRCDIR)convert_test.sch $(SRCDIR)transfo.sch $(S
 	$(NETLIST_PROG) -g spice-sdb -o $(BUILDDIR)transfo.cir $(SRCDIR)transfo.sch
 	$(NETLIST_PROG) -g spice-sdb -o $(BUILDDIR)convert_test.cir $(SRCDIR)convert_test.sch $(SRCDIR)km312_analog.sch
 
-$(DESTDIR)km312_nt.net : $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch
-	$(NETLIST_PROG) -g PCB -o $(DESTDIR)km312_nt_temp.net $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch
-	sed -r --file=$(SRCDIR)net_pcb_fix.reg $(DESTDIR)km312_nt_temp.net > $(DESTDIR)km312_nt_temp_2.net
+$(DESTDIR)km312_nt.net : $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch $(SRCDIR)km312_feedback.sch $(SRCDIR)km312_power.sch
+	$(NETLIST_PROG) -g PCB -o $(DESTDIR)km312_nt_temp.net $(SRCDIR)pulses_gene_analog.sch $(SRCDIR)pulses_gene_numeric.sch $(SRCDIR)pulses_gene_power.sch $(SRCDIR)km312_analog.sch $(SRCDIR)km312_feedback.sch $(SRCDIR)km312_power.sch
+	sed -r --file=$(SRCDIR)net_pcb_fix.reg $(DESTDIR)km312_nt_temp.net | sed -r --file=$(SRCDIR)net_pcb_fix_2.reg > $(DESTDIR)km312_nt_temp_2.net
 ifeq ($(SRCDIR),)
 	./pcb_doublons_fix.sh $(DESTDIR)km312_nt_temp_2.net $(DESTDIR)km312_nt.net
 else
 	$(SRCDIR)pcb_doublons_fix.sh $(DESTDIR)km312_nt_temp.net $(DESTDIR)km312_nt.net
 endif
-	rm -f $(DESTDIR)km312_nt_temp_2.net
-	rm -f $(DESTDIR)km312_nt_temp.net
+#	rm -f $(DESTDIR)km312_nt_temp_2.net
+#	rm -f $(DESTDIR)km312_nt_temp.net
 
 
 $(DESTDIR)sch_build_date	: $(SRCDIR)km312_analog.sch $(SRCDIR)AMP_OP.sch $(SRCDIR)AMP_OP_FAST.sch 
 	$(EXPORT_PROG) export -o $(DESTDIR)km312_analog.ps $(SRCDIR)km312_analog.sch
 	$(EXPORT_PROG) export -o $(DESTDIR)km312_analog.pdf $(SRCDIR)km312_analog.sch
-
+	$(EXPORT_PROG) export -o $(DESTDIR)km312_power.ps $(SRCDIR)km312_power.sch
+	$(EXPORT_PROG) export -o $(DESTDIR)km312_power.pdf $(SRCDIR)km312_power.sch
+	$(EXPORT_PROG) export -o $(DESTDIR)km312_feedback.pdf $(SRCDIR)km312_feedback.sch
 
 clean	:
 	rm -f $(DESTDIR)km312_nt.partslist_by_refdes.txt $(DESTDIR)km312_nt.partslist_by_value.txt

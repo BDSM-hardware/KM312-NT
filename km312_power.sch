@@ -1,0 +1,275 @@
+v 20201216 2
+C 40000 40000 0 0 0 title-bordered-A4.sym
+C 41000 45600 1 0 0 opamp_gen_dil8_power.sym
+{
+T 41625 46550 5 8 0 0 0 0 1
+device=LM741
+T 41200 46500 5 10 1 1 0 0 1
+refdes=X200
+T 41000 45600 5 10 0 0 0 0 1
+value=OPA196IDR
+T 41000 45600 5 10 0 0 0 0 1
+footprint=SOIC8
+T 41000 45600 5 10 0 1 0 0 1
+comment=/
+T 41000 45600 5 10 0 1 0 0 1
+tolerance=/
+}
+C 41800 45600 1 0 0 opamp_gen_dil8_power.sym
+{
+T 42425 46550 5 8 0 0 0 0 1
+device=LM741
+T 42000 46500 5 10 1 1 0 0 1
+refdes=X201
+T 41800 45600 5 10 0 0 0 0 1
+value=OPA196IDR
+T 41800 45600 5 10 0 0 0 0 1
+footprint=SOIC8
+T 41800 45600 5 10 0 1 0 0 1
+comment=/
+T 41800 45600 5 10 0 1 0 0 1
+tolerance=/
+}
+C 42600 45600 1 0 0 opamp_gen_dil8_power.sym
+{
+T 43225 46550 5 8 0 0 0 0 1
+device=LM741
+T 42800 46500 5 10 1 1 0 0 1
+refdes=X202
+T 42600 45600 5 10 0 0 0 0 1
+value=OPA196IDR
+T 42600 45600 5 10 0 0 0 0 1
+footprint=SOIC8
+T 42600 45600 5 10 0 1 0 0 1
+comment=/
+T 42600 45600 5 10 0 1 0 0 1
+tolerance=/
+}
+C 43400 45600 1 0 0 opamp_gen_dil8_power.sym
+{
+T 44025 46550 5 8 0 0 0 0 1
+device=LM741
+T 43600 46500 5 10 1 1 0 0 1
+refdes=X203
+T 43400 45600 5 10 0 0 0 0 1
+value=TLV07
+T 43400 45600 5 10 0 0 0 0 1
+footprint=SOIC8
+T 43400 45600 5 10 0 1 0 0 1
+comment=/
+T 43400 45600 5 10 0 1 0 0 1
+tolerance=/
+}
+C 44200 45600 1 0 0 opamp_gen_dil8_power.sym
+{
+T 44825 46550 5 8 0 0 0 0 1
+device=LM741
+T 44400 46500 5 10 1 1 0 0 1
+refdes=X204
+T 44200 45600 5 10 0 0 0 0 1
+value=TLV07
+T 44200 45600 5 10 0 0 0 0 1
+footprint=SOIC8
+T 44200 45600 5 10 0 1 0 0 1
+comment=/
+T 44200 45600 5 10 0 1 0 0 1
+tolerance=/
+}
+N 41500 45600 48100 45600 4
+N 41500 46400 48100 46400 4
+C 41300 46400 1 0 0 vcc-1.sym
+C 41700 45600 1 180 0 vdd-1.sym
+N 48100 46400 48100 46900 4
+N 48100 46900 50100 46900 4
+C 48900 46000 1 90 0 capacitor-1.sym
+{
+T 48200 46200 5 10 0 0 90 0 1
+device=CAPACITOR
+T 48400 46200 5 10 1 1 90 0 1
+refdes=C34
+T 48000 46200 5 10 0 0 90 0 1
+symversion=0.1
+T 48900 46000 5 10 0 0 0 0 1
+footprint=0805
+T 48900 46000 5 10 1 1 0 0 1
+value=22nF
+T 48900 46000 5 10 0 0 0 0 1
+comment=/
+T 48900 46000 5 10 0 0 0 0 1
+tolerance=20%
+}
+C 49600 46000 1 90 0 capacitor-1.sym
+{
+T 48900 46200 5 10 0 0 90 0 1
+device=CAPACITOR
+T 49100 46200 5 10 1 1 90 0 1
+refdes=C36
+T 48700 46200 5 10 0 0 90 0 1
+symversion=0.1
+T 49600 46000 5 10 0 1 0 0 1
+footprint=0805
+T 49600 46000 5 10 1 1 0 0 1
+value=22nF
+T 49600 46000 5 10 0 1 0 0 1
+comment=/
+T 49600 46000 5 10 0 1 0 0 1
+tolerance=20%
+}
+C 50300 46000 1 90 0 capacitor-1.sym
+{
+T 49600 46200 5 10 0 0 90 0 1
+device=CAPACITOR
+T 49800 46200 5 10 1 1 90 0 1
+refdes=C38
+T 49400 46200 5 10 0 0 90 0 1
+symversion=0.1
+T 50300 46000 5 10 0 1 0 0 1
+footprint=0805
+T 50300 46000 5 10 1 1 0 0 1
+value=22nF
+T 50300 46000 5 10 0 1 0 0 1
+comment=/
+T 50300 46000 5 10 0 1 0 0 1
+tolerance=20%
+}
+C 48900 45100 1 90 0 capacitor-1.sym
+{
+T 48200 45300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 48400 45300 5 10 1 1 90 0 1
+refdes=C35
+T 48000 45300 5 10 0 0 90 0 1
+symversion=0.1
+T 48900 45100 5 10 0 1 0 0 1
+footprint=0805
+T 48900 45100 5 10 1 1 0 0 1
+value=22nF
+T 48900 45100 5 10 0 1 0 0 1
+comment=/
+T 48900 45100 5 10 0 1 0 0 1
+tolerance=20%
+}
+C 49600 45100 1 90 0 capacitor-1.sym
+{
+T 48900 45300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 49100 45300 5 10 1 1 90 0 1
+refdes=C37
+T 48700 45300 5 10 0 0 90 0 1
+symversion=0.1
+T 49600 45100 5 10 0 1 0 0 1
+footprint=0805
+T 49600 45100 5 10 1 1 0 0 1
+value=22nF
+T 49600 45100 5 10 0 1 0 0 1
+comment=/
+T 49600 45100 5 10 0 1 0 0 1
+tolerance=20%
+}
+C 50300 45100 1 90 0 capacitor-1.sym
+{
+T 49600 45300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 49800 45300 5 10 1 1 90 0 1
+refdes=C39
+T 49400 45300 5 10 0 0 90 0 1
+symversion=0.1
+T 50300 45100 5 10 0 1 0 0 1
+footprint=0805
+T 50300 45100 5 10 1 1 0 0 1
+value=22nF
+T 50300 45100 5 10 0 1 0 0 1
+comment=/
+T 50300 45100 5 10 0 1 0 0 1
+tolerance=20%
+}
+N 50100 45100 48100 45100 4
+N 48100 45100 48100 45600 4
+N 48700 46000 50700 46000 4
+C 50600 45700 1 0 0 gnd-1.sym
+C 45000 45600 1 0 0 opamp_gen_dil8_power.sym
+{
+T 45625 46550 5 8 0 0 0 0 1
+device=LM741
+T 45200 46500 5 10 1 1 0 0 1
+refdes=X206
+T 45000 45600 5 10 0 0 0 0 1
+value=TLV07
+T 45000 45600 5 10 0 0 0 0 1
+footprint=SOIC8
+T 45000 45600 5 10 0 1 0 0 1
+comment=/
+T 45000 45600 5 10 0 1 0 0 1
+tolerance=/
+}
+C 45800 45600 1 0 0 opamp_gen_dil8_power.sym
+{
+T 46425 46550 5 8 0 0 0 0 1
+device=LM741
+T 46000 46500 5 10 1 1 0 0 1
+refdes=X207
+T 45800 45600 5 10 0 0 0 0 1
+value=TLV07
+T 45800 45600 5 10 0 0 0 0 1
+footprint=SOIC8
+T 45800 45600 5 10 0 1 0 0 1
+comment=/
+T 45800 45600 5 10 0 1 0 0 1
+tolerance=/
+}
+C 46600 45600 1 0 0 opamp_gen_dil8_power.sym
+{
+T 47225 46550 5 8 0 0 0 0 1
+device=LM741
+T 46800 46500 5 10 1 1 0 0 1
+refdes=X208
+T 46600 45600 5 10 0 0 0 0 1
+value=TLV07
+T 46600 45600 5 10 0 0 0 0 1
+footprint=SOIC8
+T 46600 45600 5 10 0 1 0 0 1
+comment=/
+T 46600 45600 5 10 0 1 0 0 1
+tolerance=/
+}
+C 44500 43900 1 0 0 9V-plus-1.sym
+C 43800 43700 1 0 0 diode-1.sym
+{
+T 44200 44300 5 10 0 0 0 0 1
+device=DIODE
+T 44100 44200 5 10 1 1 0 0 1
+refdes=D214
+T 43800 43700 5 10 0 1 0 0 1
+comment=/
+T 43800 43700 5 10 0 0 0 0 1
+footprint=DO214
+}
+C 42900 43800 1 0 0 fuse-2.sym
+{
+T 43100 44350 5 10 0 0 0 0 1
+device=FUSE
+T 43100 44100 5 10 1 1 0 0 1
+refdes=F200
+T 43100 44550 5 10 0 0 0 0 1
+symversion=0.1
+T 42900 43800 5 10 0 0 0 0 1
+footprint=200mil
+}
+C 41200 43400 1 0 0 connector2-1.sym
+{
+T 41400 44400 5 10 0 0 0 0 1
+device=CONNECTOR_2
+T 41200 44200 5 10 1 1 0 0 1
+refdes=CONN10
+}
+C 42800 43300 1 0 0 gnd-1.sym
+C 44900 43000 1 90 0 diode-1.sym
+{
+T 44300 43400 5 10 0 0 90 0 1
+device=DIODE
+T 44400 43300 5 10 1 1 90 0 1
+refdes=D215
+T 44900 43000 5 10 0 0 0 0 1
+footprint=DO214
+}
+C 44600 42700 1 0 0 gnd-1.sym

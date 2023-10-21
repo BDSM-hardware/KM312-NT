@@ -9,7 +9,7 @@ device=vpulse
 T 42000 45850 5 10 0 0 0 0 1
 footprint=none
 T 42000 45150 5 10 1 1 0 0 1
-value=DC 0 PWL(  0 0 1000uS 0 1000.1uS 5 1047uS 5 1047.1uS 0 1050uS 0 1050.1uS -5 1097uS -5 1097.1uS 0 )
+value=DC 0 PWL(  0 0 1000uS 0 1000.1uS 5 1047uS 5 1047.1uS 0 1100uS 0 1100.1uS -5 1147uS -5 1147.1uS 0 )
 }
 C 40600 41600 1 0 0 spice-model-1.sym
 {
@@ -42,7 +42,7 @@ device=options
 T 41000 49600 5 10 1 1 0 0 1
 refdes=A6
 T 41100 49300 5 10 1 1 0 0 1
-value=*tran 10uS 1.2mS 0.9mS
+value=*tran 10uS 1.3mS 0.9mS
 }
 C 43000 45600 1 0 0 gnd-1.sym
 C 41600 46700 1 0 0 resistor-2.sym
@@ -154,7 +154,7 @@ footprint=0805
 T 46600 45700 5 10 1 1 90 0 1
 refdes=C108
 T 46600 46200 5 10 1 1 90 0 1
-value=100pF
+value=1nF
 }
 C 46700 45600 1 0 0 gnd-1.sym
 C 47500 45900 1 90 0 resistor-2.sym
@@ -216,4 +216,26 @@ T 52800 45000 5 10 1 1 0 0 1
 model-name=AMP_OP_FAST
 T 52000 44800 5 10 1 1 0 0 1
 file=AMP_OP_FAST.cir
+}
+C 48000 44100 1 0 0 9V-plus-1.sym
+C 48100 42600 1 0 0 gnd-1.sym
+C 47900 42900 1 0 0 vdc-1.sym
+{
+T 48600 43550 5 10 1 1 0 0 1
+refdes=V11
+T 48600 43750 5 10 0 0 0 0 1
+device=VOLTAGE_SOURCE
+T 48600 43950 5 10 0 0 0 0 1
+footprint=none
+T 48600 43350 5 10 1 1 0 0 1
+value=DC 9V
+}
+C 40900 48500 1 0 0 spice-options-1.sym
+{
+T 41000 48800 5 10 0 1 0 0 1
+device=options
+T 41000 48900 5 10 1 1 0 0 1
+refdes=A7
+T 41000 48600 5 10 1 1 0 0 1
+value=*plot v(5),v(11),v(6)/2,v(12)/2,V(7),V(13),V(CNV_PULSES_I)+3,V(18)+3
 }
