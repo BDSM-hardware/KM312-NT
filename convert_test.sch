@@ -239,3 +239,14 @@ refdes=A7
 T 41000 48600 5 10 1 1 0 0 1
 value=*plot v(5),v(11),v(6)/2,v(12)/2,V(7),V(13),V(CNV_PULSES_I)+3,V(18)+3
 }
+C 47100 48900 1 0 0 spice-model-1.sym
+{
+T 47200 49600 5 10 0 1 0 0 1
+device=model
+T 47200 49500 5 10 1 1 0 0 1
+refdes=A10
+T 48400 49200 5 10 1 1 0 0 1
+model-name=DI_DXT651
+T 47600 49000 5 10 1 1 0 0 1
+file=DXT651.cir
+}

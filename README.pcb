@@ -1,0 +1,49 @@
+The box is a 1591ESBK.
+There was a little confusion as this box has thick sides. The are corrugated in order to place multiple small cards as one put a drawer in a cupboard.
+That reduce slightly the inside dimensions.
+Outside and inside lines are drawn on the box_meca plane. 
+The work around is to use a small milling machine to remove extra thickness on the top of the RCA. Then the mini XLR and the potentiometers can be introduced first, the board should be able to go down on the RCA side and moved to the right.
+Another work around is to drill the box for the card face down. Then it is more close to the top and the ABS is enough flexible to enter the board.
+
+An alternative is to use the 1591XX.
+It does not have the thickness due to the guides and is slightly bigger.
+However it has facilities to screw up the boards on the bottom, that have to be milled.
+First they does not fit the PCB, see the little crosses nearby the mounting holes.
+Second, they are too little for PCB that has SMD mount components on the solder side.
+
+Input is RCA, output is mini XLR4 male.
+For other plugs, one can use the pins holes to solder wires while using box mount plugs.
+
+There is no LED switch on the PCB (input volume or feedback).
+One can soldered wires of a switch or pins for jumpers.
+Some people uses always the same sound card on the same computer with the same adjustments. In such case after adjusting the volume, a jumper can be moved to the feedback.
+
+Transformer is made using a 30x19 size ferrite because I still have some.
+If everybody is agree on a RM ferrite, I can make a branch for this.
+RM5 may be too small if the ferrite core is an air gaped model (for high precision RLC). I haven't check.
+RM10 is tricky without redesigning all the PCB.
+Use the forum for discussion.
+
+The potentiometer is a Sfernice P11VK.
+For mounting something else by a quick and dirty method, some vias are going to centered the drill.
+
+The 1N4148 diodes are through hole ... because I have a lot!
+
+On the topview PS file, I sometimes, or at some commits, looks like some SMD pads touches lines.
+It is a bug of my CAD software. There are 50 shades of grey but it uses only one (at 70%) for pads on both sides. I try to fix but I might forgot some.
+
+There is a letter A or C around the diodes BAT54 sot23 to help manual mounting.
+
+The folder PCB_CC contains the Gerbert exports. Don't forget to remove pcb_meca and/or box_meca if your provider hate them.
+
+TODO
+
+Verify again the analogue design using spice
+
+Verify the footprints I drawn, especially the drill diameters
+
+Oder a PCB, order the parts, mount a PCB and test it.
+
+TODO later
+
+Verify the extended feedback
