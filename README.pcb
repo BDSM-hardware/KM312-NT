@@ -36,14 +36,26 @@ There is a letter A or C around the diodes BAT54 sot23 to help manual mounting.
 
 The folder PCB_CC contains the Gerbert exports. Don't forget to remove pcb_meca and/or box_meca if your provider hate them.
 
+
+
 TODO
 
-Verify again the analogue design using spice
-
-Verify the footprints I drawn, especially the drill diameters
+Verify again the analogue design using spice. Some values has been estimated, they may change.
 
 Oder a PCB, order the parts, mount a PCB and test it.
 
-TODO later
+Fix the large and narrow choice of potentiometers and their footprint
+
+
+
+NEWS
+
+The footprints I drawn has been verified, especially the drill diameters
+
+A bug has been fixed. The potentiometer is in a voltage divider. Due to it 20% tolerance, the output is not precise. A R237 resistor has been added in parrallel and the resistor R50 has been reduced to 3.32K
+
+
+
+TODO LATER
 
 Verify the extended feedback
