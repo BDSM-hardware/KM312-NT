@@ -54,6 +54,9 @@ The footprints I drawn has been verified, especially the drill diameters
 
 A bug has been fixed. The potentiometer is in a voltage divider. Due to it 20% tolerance, the output is not precise. A R237 resistor has been added in parrallel and the resistor R50 has been reduced to 3.32K
 
+ElecGeek fixed more values and decided, in the branch pulses_separ the input level to 1mW @600ohms on the output of X1 which means 1095mV max
+
+Some photo shows the progress, more news are in the commit messages.
 
 
 TODO LATER
