@@ -1,6 +1,6 @@
 # release: pcb 20091103
-# date:    Wed Nov  8 14:34:09 2023
-# user:    bh(bh)
+# date:    Mon Dec  4 14:29:58 2023
+# user:    bh
 # host:    @noreply.github.com
 
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
@@ -987,7 +987,7 @@ Via[248000 386500 3600 2000 0 2000 "" ""]
 Via[248000 399500 3600 2000 0 2000 "" ""]
 Via[248000 395000 3600 2000 0 2000 "" ""]
 Via[248000 391000 3600 2000 0 2000 "" ""]
-Via[428000 338500 6000 2000 0 3500 "" ""]
+Via[426500 338500 6000 2000 0 3500 "" ""]
 Via[271000 214500 3600 2000 0 2000 "" ""]
 Via[254000 441500 3600 2000 0 2000 "" ""]
 Via[260500 441500 3600 2000 0 2000 "" ""]
@@ -1014,7 +1014,6 @@ Via[375500 390500 3600 2000 0 2000 "" ""]
 Via[375500 395500 3600 2000 0 2000 "" ""]
 Via[380500 400500 3600 2000 0 2000 "" ""]
 Via[360000 400500 3600 2000 0 2000 "" ""]
-Via[421000 338500 6000 2000 0 3500 "" ""]
 Via[232000 425500 3600 2000 0 2000 "" ""]
 Via[241500 425500 3600 2000 0 2000 "" ""]
 Via[236500 425500 3600 2000 0 2000 "" ""]
@@ -1022,25 +1021,23 @@ Via[246500 425500 3600 2000 0 2000 "" ""]
 Via[377500 377500 3600 2000 0 2000 "" ""]
 Via[355000 372500 3600 2000 0 2000 "" ""]
 Via[391500 445500 3600 2000 0 2000 "" ""]
-Via[392500 427500 3600 2000 0 2000 "" ""]
-Via[392500 421000 3600 2000 0 2000 "" ""]
+Via[392500 423000 3600 2000 0 2000 "" ""]
+Via[392500 417500 3600 2000 0 2000 "" ""]
 Via[236500 381500 3600 2000 0 2000 "" ""]
 Via[267000 417500 3600 2000 0 2000 "" ""]
 Via[355500 408000 3600 2000 0 2000 "" ""]
 Via[300500 408000 3600 2000 0 2000 "" ""]
 Via[342000 426000 3600 2000 0 2000 "" ""]
-Via[423000 418500 3600 2000 0 2000 "" ""]
-Via[423000 428500 3600 2000 0 2000 "" ""]
-Via[423000 378500 3600 2000 0 2000 "" ""]
-Via[423000 398500 3600 2000 0 2000 "" ""]
-Via[423000 358500 3600 2000 0 2000 "" ""]
-Via[423000 348500 3600 2000 0 2000 "" ""]
-Via[384000 411500 3600 2000 0 2000 "" ""]
-Via[366000 417000 3600 2000 0 2000 "" ""]
 Via[355500 416500 3600 2000 0 2000 "" ""]
+Via[366000 417000 3600 2000 0 2000 "" ""]
+Via[436000 398500 3600 2000 0 2000 "" ""]
+Via[436000 388500 3600 2000 0 2000 "" ""]
+Via[436000 378500 3600 2000 0 2000 "" ""]
 Via[371000 422000 3600 2000 0 2000 "" ""]
+Via[384000 411500 3600 2000 0 2000 "" ""]
+Via[420000 338500 6000 2000 0 3500 "" ""]
 
-Element["" "Standard SMT resistor, capacitor etc" "C2" "0805" 146500 253000 -5150 -10150 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "C2" "0805" 146500 253000 -8650 -10150 0 100 ""]
 (
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
 	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
@@ -1049,7 +1046,7 @@ Element["" "Standard SMT resistor, capacitor etc" "C2" "0805" 146500 253000 -515
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "R9" "1206" 149000 261000 5850 -10150 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "R9" "1206" 149000 261000 2850 -17650 0 100 ""]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
@@ -1217,7 +1214,7 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R42" "1206" 135500 45
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "C7" "1206" 188500 231000 -16650 2150 0 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "C7" "1206" 188500 231000 -22650 1650 0 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1235,7 +1232,7 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R1" "1206" 144500 225
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "C4" "0805" 164500 463500 -10650 -1650 1 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "C4" "0805" 164500 463500 -10650 -7650 1 100 "auto"]
 (
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-393 3543 393 3543 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1308,7 +1305,7 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R5" "1206" 149000 261
 
 	)
 
-Element["" "SMT transistor, 3 pins" "D1" "SOT23" 128000 260500 3500 -17300 0 100 ""]
+Element["" "SMT transistor, 3 pins" "D1" "SOT23" 128000 260500 2500 -16800 0 100 ""]
 (
 	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
 	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
@@ -1403,7 +1400,7 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R46" "1206" 140000 31
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "R45" "1206" 163500 315000 -2650 10650 0 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "R45" "1206" 163500 315000 -4150 10650 0 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1448,7 +1445,7 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R14" "1206" 149000 34
 
 	)
 
-Element["" "Tantalum SMT capacitor (pin 1 is +)" "C21" "EIA6032" 92500 303500 -8000 -25800 0 100 ""]
+Element["" "Tantalum SMT capacitor (pin 1 is +)" "C21" "EIA6032" 92500 303500 13200 5000 1 100 ""]
 (
 	Pad[-3900 -9400 3900 -9400 9700 2000 10300 "1" "1" "square"]
 	Pad[-3900 9400 3900 9400 9700 2000 10300 "2" "2" "square"]
@@ -1461,7 +1458,7 @@ Element["" "Tantalum SMT capacitor (pin 1 is +)" "C21" "EIA6032" 92500 303500 -8
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "R24" "1206" 108000 336500 -3150 12150 0 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "R24" "1206" 108000 336500 3350 10650 0 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1507,7 +1504,7 @@ Element["" "Standard SMT resistor, capacitor etc" "C10" "0805" 118500 349000 -21
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "C11" "0805" 99500 349000 -15193 -3329 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "C11" "0805" 99500 349000 -15693 171 0 100 ""]
 (
 	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "square"]
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "square"]
@@ -1704,16 +1701,16 @@ Element["" "Small outline package, narrow (150mil)" "U14" "SO16" 96500 403500 55
 
 	)
 
-Element["" "Axial diode (pin 1 is cathode)" "D7" "ALF300" 181500 397000 -8500 -21500 1 100 ""]
+Element["" "Axial diode (pin 1 is cathode)" "D208" "ALF300" 293500 322000 -8000 -9000 0 100 ""]
 (
-	Pin[0 -30000 5000 3000 5600 2000 "1" "1" "square"]
-	Pin[0 0 5000 3000 5600 2000 "2" "2" ""]
-	ElementLine [-5000 -10000 5000 -10000 1000]
-	ElementLine [5000 -20000 0 -10000 1000]
-	ElementLine [-5000 -20000 5000 -20000 1000]
-	ElementLine [0 -10000 -5000 -20000 1000]
-	ElementLine [0 -30000 0 -20000 1000]
-	ElementLine [0 -10000 0 0 1000]
+	Pin[-30000 0 5200 3000 5800 2200 "1" "1" "square,edge2"]
+	Pin[0 0 5200 3000 5800 2200 "2" "2" "edge2"]
+	ElementLine [-10000 -5000 -10000 5000 1000]
+	ElementLine [-20000 -5000 -10000 0 1000]
+	ElementLine [-20000 -5000 -20000 5000 1000]
+	ElementLine [-10000 0 -20000 5000 1000]
+	ElementLine [-30000 0 -20000 0 1000]
+	ElementLine [-10000 0 0 0 1000]
 
 	)
 
@@ -1836,7 +1833,7 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R43" "1206" 208500 24
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "C8" "0805" 116500 223500 -5564 -16936 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "C8" "0805" 116500 223500 -6564 -20436 0 100 ""]
 (
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
 	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
@@ -1909,7 +1906,7 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R35" "1206" 186000 20
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "R48" "1206" 91000 270500 9850 -6650 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "R48" "1206" 91000 270500 10850 -4150 0 100 ""]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
@@ -1918,20 +1915,20 @@ Element["" "Standard SMT resistor, capacitor etc" "R48" "1206" 91000 270500 9850
 
 	)
 
-Element["" "Axial diode (pin 1 is cathode)" "D9" "ALF300" 225000 183500 -9000 8000 1 100 ""]
+Element["" "Axial diode (pin 1 is cathode)" "D7" "ALF300" 181500 397000 -9500 -23500 1 100 ""]
 (
-	Pin[0 30000 5000 3000 5600 2000 "1" "1" "square"]
-	Pin[0 0 5000 3000 5600 2000 "2" "2" ""]
-	ElementLine [-5000 10000 5000 10000 1000]
-	ElementLine [-5000 20000 0 10000 1000]
-	ElementLine [-5000 20000 5000 20000 1000]
-	ElementLine [0 10000 5000 20000 1000]
-	ElementLine [0 20000 0 30000 1000]
-	ElementLine [0 0 0 10000 1000]
+	Pin[0 -30000 5200 3000 5800 2200 "1" "1" "square"]
+	Pin[0 0 5200 3000 5800 2200 "2" "2" ""]
+	ElementLine [-5000 -10000 5000 -10000 1000]
+	ElementLine [5000 -20000 0 -10000 1000]
+	ElementLine [-5000 -20000 5000 -20000 1000]
+	ElementLine [0 -10000 -5000 -20000 1000]
+	ElementLine [0 -30000 0 -20000 1000]
+	ElementLine [0 -10000 0 0 1000]
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "R31" "1206" 120500 181000 9850 3150 0 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "R31" "1206" 120500 181000 9850 8650 0 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -2004,7 +2001,7 @@ Element["" "Jumper, i.e. single row headers" "CONN4" "JUMPER3" 224500 233500 -10
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "R37" "1206" 150500 170500 9850 2650 0 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "R37" "1206" 150500 170500 10350 -1850 0 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -2049,7 +2046,7 @@ Element["" "LED, size in mm (pin 1 is +, 2 is -)" "DLED2" "LED5" 169500 172500 1
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "R47" "1206" 118500 240500 -8150 -26150 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "R47" "1206" 118500 240500 -6150 -26150 0 100 ""]
 (
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "square"]
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "square"]
@@ -2067,7 +2064,7 @@ Element["" "Standard SMT resistor, capacitor etc" "R49" "1206" 118500 231500 -65
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "C16" "0805" 224000 277000 -10257 -2607 1 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "C16" "0805" 224000 277000 -10257 -607 1 100 "auto"]
 (
 	Pad[-393 3543 393 3543 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -2092,12 +2089,12 @@ Element["" "Mounting trought hole with clearance" "" "" 89000 456500 -9843 -9500
 
 	)
 
-Element["" "RCA_CUI_490RCJ" "CONN5" "RCA_DUAL_CUI_490RCJ" 107000 235800 -10796 -34710 0 100 ""]
+Element["" "RCA_CUI_490RCJ" "CONN5" "RCA_DUAL_CUI_490RCJ" 107000 236000 -28996 -33910 0 100 ""]
 (
-	Pin[-10000 0 12161 670 10555 6724 "1" "1" ""]
-	Pin[-27700 0 16610 1020 20004 10273 "2" "2" ""]
-	Pin[-10000 19700 16610 1020 20004 10273 "3" "3" ""]
-	Pin[-10000 -19700 16610 1020 20004 10273 "4" "4" ""]
+	Pin[-10000 0 12161 670 13155 6724 "1" "1" "edge2"]
+	Pin[-27700 0 16610 1020 17604 10273 "2" "2" "edge2"]
+	Pin[-10000 19700 16610 1020 17604 10273 "3" "3" "edge2"]
+	Pin[-10000 -19700 16610 1020 17604 10273 "4" "4" "edge2"]
 	ElementLine [2000 -25000 2000 25000 787]
 	ElementLine [0 -25000 2000 -25000 787]
 	ElementLine [0 25000 2000 25000 787]
@@ -2115,7 +2112,7 @@ Element["" "RCA_CUI_490RCJ" "CONN5" "RCA_DUAL_CUI_490RCJ" 107000 235800 -10796 -
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "C22" "0805" 169000 391500 -9757 -1107 1 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "C22" "0805" 169000 391500 -9757 1893 1 100 "auto"]
 (
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-393 3543 393 3543 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -2124,7 +2121,7 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "C22" "0805" 169000 39
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "C23" "0805" 196000 460500 -9936 -3150 1 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "C23" "0805" 196000 460500 -15936 -7650 1 100 "auto"]
 (
 	Pad[-393 3543 393 3543 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -2236,7 +2233,7 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "C9" "0805" 212000 369
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "C25" "0805" 116500 249000 -6107 3957 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "C25" "0805" 116500 249000 -11107 12457 0 100 ""]
 (
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
 	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
@@ -2343,7 +2340,7 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R206" "1206" 341000 3
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "R21" "1206" 226000 366000 -3245 14831 0 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "R21" "1206" 226000 366000 -245 14331 0 100 "auto"]
 (
 	Pad[-1181 5905 1181 5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -2361,7 +2358,7 @@ Element["" "Standard SMT resistor, capacitor etc" "C34" "0805" 252000 294500 830
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "C28" "0805" 227500 329000 -5150 -8722 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "C28" "0805" 227500 329000 -4650 -9722 0 100 ""]
 (
 	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "square"]
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "square"]
@@ -2379,7 +2376,7 @@ Element["" "Standard SMT resistor, capacitor etc" "C29" "0805" 229000 350000 -10
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "R50" "1206" 329500 424500 5350 -10150 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "R50" "1206" 329500 424500 -3150 -11150 0 100 ""]
 (
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "square"]
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "square"]
@@ -2388,7 +2385,7 @@ Element["" "Standard SMT resistor, capacitor etc" "R50" "1206" 329500 424500 535
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "C26" "0805" 351457 425107 1893 -9043 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "C26" "0805" 351457 425107 -8107 -10043 0 100 ""]
 (
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
 	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
@@ -2433,7 +2430,7 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R226" "1206" 319000 3
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "R221" "1206" 265000 276000 350 10650 0 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "R221" "1206" 265000 276000 -1650 14650 0 100 "auto"]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -2460,16 +2457,27 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R218" "1206" 286500 2
 
 	)
 
-Element["" "Axial diode (pin 1 is cathode)" "D210" "ALF300" 263500 307000 22500 -8500 0 100 ""]
+Element["" "PotaP11/1W_508" "P200" "" 423000 388500 5000 -45500 0 100 ""]
 (
-	Pin[30000 0 5000 3000 5600 2000 "1" "1" "square,edge2"]
-	Pin[0 0 5000 3000 5600 2000 "2" "2" "edge2"]
-	ElementLine [10000 -5000 10000 5000 1000]
-	ElementLine [20000 5000 10000 0 1000]
-	ElementLine [20000 -5000 20000 5000 1000]
-	ElementLine [10000 0 20000 -5000 1000]
-	ElementLine [20000 0 30000 0 1000]
-	ElementLine [0 0 10000 0 1000]
+	Pin[-16000 0 8680 2000 9680 4180 "" "2" "edge2"]
+	Pin[-16000 10000 8680 2000 9680 4180 "" "1" "edge2"]
+	Pin[-16000 -10000 8680 2000 9680 4180 "" "3" "edge2"]
+	ElementLine [-7500 31300 7500 31300 1500]
+	ElementLine [-7500 -31300 7500 -31300 1500]
+	ElementLine [7500 -31300 27500 -31300 1500]
+	ElementLine [27500 -31300 27500 31300 1500]
+	ElementLine [7500 31300 27500 31300 1500]
+	ElementLine [-22500 -31300 -7500 -31300 1500]
+	ElementLine [-22500 -31300 -22500 31300 1500]
+	ElementLine [-22500 31300 -7500 31300 1500]
+	ElementLine [27500 -20000 65000 -20000 1500]
+	ElementLine [65000 -20000 65000 0 1500]
+	ElementLine [27500 20000 65000 20000 1500]
+	ElementLine [65000 0 65000 20000 1500]
+	ElementLine [65000 12500 100000 12500 1500]
+	ElementLine [100000 -12500 100000 12500 1500]
+	ElementLine [65000 -12500 100000 -12500 1500]
+	ElementLine [-9500 -31300 -9500 31300 1500]
 
 	)
 
@@ -2506,16 +2514,16 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R205" "1206" 279500 3
 
 	)
 
-Element["" "Axial diode (pin 1 is cathode)" "D207" "ALF300" 310500 322000 22000 -11500 0 100 ""]
+Element["" "Axial diode (pin 1 is cathode)" "D209" "ALF300" 340500 307000 -8000 -8500 0 100 ""]
 (
-	Pin[30000 0 5000 3000 5600 2000 "1" "1" "square,edge2"]
-	Pin[0 0 5000 3000 5600 2000 "2" "2" "edge2"]
-	ElementLine [10000 -5000 10000 5000 1000]
-	ElementLine [20000 5000 10000 0 1000]
-	ElementLine [20000 -5000 20000 5000 1000]
-	ElementLine [10000 0 20000 -5000 1000]
-	ElementLine [20000 0 30000 0 1000]
-	ElementLine [0 0 10000 0 1000]
+	Pin[-30000 0 5200 3000 5800 2200 "1" "1" "square,edge2"]
+	Pin[0 0 5200 3000 5800 2200 "2" "2" "edge2"]
+	ElementLine [-10000 -5000 -10000 5000 1000]
+	ElementLine [-20000 -5000 -10000 0 1000]
+	ElementLine [-20000 -5000 -20000 5000 1000]
+	ElementLine [-10000 0 -20000 5000 1000]
+	ElementLine [-30000 0 -20000 0 1000]
+	ElementLine [-10000 0 0 0 1000]
 
 	)
 
@@ -2550,16 +2558,29 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "C203" "0805" 371500 2
 
 	)
 
-Element["" "Axial diode (pin 1 is cathode)" "D209" "ALF300" 340500 307000 -7500 -10000 0 100 ""]
+Element["" "PotaP11/1W_508" "P201" "" 422800 388500 6400 -38000 0 100 ""]
 (
-	Pin[-30000 0 5000 3000 5600 2000 "1" "1" "square,edge2"]
-	Pin[0 0 5000 3000 5600 2000 "2" "2" "edge2"]
-	ElementLine [-10000 -5000 -10000 5000 1000]
-	ElementLine [-20000 -5000 -10000 0 1000]
-	ElementLine [-20000 -5000 -20000 5000 1000]
-	ElementLine [-10000 0 -20000 5000 1000]
-	ElementLine [-30000 0 -20000 0 1000]
-	ElementLine [-10000 0 0 0 1000]
+	Pin[-5700 0 9050 2000 10050 4550 "" "2" "edge2"]
+	Pin[-5700 20000 9050 2000 10050 4550 "" "1" "edge2"]
+	Pin[-5700 -20000 9050 2000 10050 4550 "" "3" "edge2"]
+	Pin[13300 20000 9050 2000 10050 4550 "" "4" "edge2"]
+	Pin[13300 -20000 9050 2000 10050 4550 "" "5" "edge2"]
+	ElementLine [-7500 25000 7500 25000 1500]
+	ElementLine [-7500 -25000 7500 -25000 1500]
+	ElementLine [7500 -25000 27500 -25000 1500]
+	ElementLine [27500 -25000 27500 25000 1500]
+	ElementLine [7500 25000 27500 25000 1500]
+	ElementLine [-17500 -25000 -7500 -25000 1500]
+	ElementLine [-17500 -25000 -17500 25000 1500]
+	ElementLine [-17500 25000 -7500 25000 1500]
+	ElementLine [27500 -20000 65000 -20000 1500]
+	ElementLine [65000 -20000 65000 0 1500]
+	ElementLine [27500 20000 65000 20000 1500]
+	ElementLine [65000 0 65000 20000 1500]
+	ElementLine [65000 12500 100000 12500 1500]
+	ElementLine [100000 -12500 100000 12500 1500]
+	ElementLine [65000 -12500 100000 -12500 1500]
+	ElementLine [-15000 -25000 -15000 25000 1500]
 
 	)
 
@@ -2625,16 +2646,16 @@ Element["onsolder" "SMT transistor, 3 pins" "D200" "SOT23" 302500 394500 -9800 6
 
 	)
 
-Element["" "Axial diode (pin 1 is cathode)" "D208" "ALF300" 293500 322000 -9000 -9000 0 100 ""]
+Element["" "Axial diode (pin 1 is cathode)" "D210" "ALF300" 263500 307000 22000 -9000 0 100 ""]
 (
-	Pin[-30000 0 5000 3000 5600 2000 "1" "1" "square,edge2"]
-	Pin[0 0 5000 3000 5600 2000 "2" "2" "edge2"]
-	ElementLine [-10000 -5000 -10000 5000 1000]
-	ElementLine [-20000 -5000 -10000 0 1000]
-	ElementLine [-20000 -5000 -20000 5000 1000]
-	ElementLine [-10000 0 -20000 5000 1000]
-	ElementLine [-30000 0 -20000 0 1000]
-	ElementLine [-10000 0 0 0 1000]
+	Pin[30000 0 5200 3000 5800 2200 "1" "1" "square,edge2"]
+	Pin[0 0 5200 3000 5800 2200 "2" "2" "edge2"]
+	ElementLine [10000 -5000 10000 5000 1000]
+	ElementLine [20000 5000 10000 0 1000]
+	ElementLine [20000 -5000 20000 5000 1000]
+	ElementLine [10000 0 20000 -5000 1000]
+	ElementLine [20000 0 30000 0 1000]
+	ElementLine [0 0 10000 0 1000]
 
 	)
 
@@ -2774,7 +2795,7 @@ Element["" "SMT transistor, 3 pins" "Q201" "SOT89-3" 317000 353500 6530 -9000 0 
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "R202" "1206" 274000 380000 -19650 -10150 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "R202" "1206" 274000 380000 -19650 -15150 0 100 ""]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
@@ -2783,7 +2804,7 @@ Element["" "Standard SMT resistor, capacitor etc" "R202" "1206" 274000 380000 -1
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "R201" "1206" 298000 380000 -8150 -11650 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "R201" "1206" 298000 380000 -8650 -15150 0 100 ""]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
@@ -2792,7 +2813,7 @@ Element["" "Standard SMT resistor, capacitor etc" "R201" "1206" 298000 380000 -8
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "R208" "1206" 321000 380000 -18150 -10650 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "R208" "1206" 321000 380000 -18150 -16150 0 100 ""]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
@@ -2801,7 +2822,7 @@ Element["" "Standard SMT resistor, capacitor etc" "R208" "1206" 321000 380000 -1
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "R207" "1206" 345000 380000 -3650 -10150 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "R207" "1206" 345000 380000 -7650 -16150 0 100 ""]
 (
 	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
 	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
@@ -2832,7 +2853,7 @@ Element["onsolder" "chip_diode" "R209" "2512" 320000 370000 31500 -6500 1 100 "a
 
 	)
 
-Element["" "SMT diode (pin 1 is cathode)" "X212" "DO214" 370000 323000 -2000 -19100 0 100 ""]
+Element["" "SMT diode (pin 1 is cathode)" "X212" "DO214" 370000 323000 4500 -18600 0 100 ""]
 (
 	Pad[10600 -1900 10600 1900 14000 2000 14600 "2" "2" "square"]
 	Pad[-10600 -1900 -10600 1900 14000 2000 14600 "1" "1" "square"]
@@ -3001,7 +3022,7 @@ Element["onsolder" "SMT transistor, 3 pins" "D213" "SOT23" 264000 188000 -9800 4
 
 	)
 
-Element["" "Small outline package, narrow (150mil)" "X206" "SO8" 251500 228500 7500 -16500 0 100 ""]
+Element["" "Small outline package, narrow (150mil)" "X206" "SO8" 251500 228500 2000 -16000 0 100 ""]
 (
 	Pad[-13500 -7500 -7000 -7500 2000 1000 3000 "1" "1" "square"]
 	Pad[-13500 -2500 -7000 -2500 2000 1000 3000 "2" "2" "square"]
@@ -3020,7 +3041,7 @@ Element["" "Small outline package, narrow (150mil)" "X206" "SO8" 251500 228500 7
 
 	)
 
-Element["" "Mini small outline package, .65mm" "U19" "MSOP8" 276500 450500 21300 -9400 0 111 ""]
+Element["" "Mini small outline package, .65mm" "U19" "MSOP8" 276500 450500 21300 -3400 0 111 ""]
 (
 	Pad[-1500 0 700 0 1600 3000 2200 "1" "1" ""]
 	Pad[-1500 2600 700 2600 1600 3000 2200 "2" "2" "square"]
@@ -3039,7 +3060,7 @@ Element["" "Mini small outline package, .65mm" "U19" "MSOP8" 276500 450500 21300
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "C32" "0805" 290000 465500 7850 -4150 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "C32" "0805" 290000 465500 -27650 -2150 0 100 ""]
 (
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
 	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
@@ -3057,7 +3078,7 @@ Element["" "Standard SMT resistor, capacitor etc" "C31" "0805" 290000 443500 -60
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "C30" "0805" 268000 455500 -10329 -893 1 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "C30" "0805" 268000 455500 -9329 -2893 1 100 ""]
 (
 	Pad[-393 3543 393 3543 5118 2000 5718 "1" "1" "square"]
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "2" "2" "square"]
@@ -3159,7 +3180,7 @@ Element["" "Standard SMT resistor, capacitor etc" "C37" "0805" 238000 181500 -10
 
 	)
 
-Element["onsolder" "Standard SMT resistor, capacitor etc" "R237" "1206" 407500 366000 -11150 -7150 1 100 "auto"]
+Element["onsolder" "Standard SMT resistor, capacitor etc" "R237" "1206" 407000 363500 -11150 -7150 1 100 "auto"]
 (
 	Pad[-1181 5905 1181 5905 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -3168,27 +3189,25 @@ Element["onsolder" "Standard SMT resistor, capacitor etc" "R237" "1206" 407500 3
 
 	)
 
-Element["" "PotaP11/1W_508" "P200" "" 423000 388500 2000 -35000 0 100 ""]
+Element["" "Amphenol mini XLR 4 PCB male" "CONN7" "Mini XLR 4" 426000 226000 -22500 18843 1 100 ""]
 (
-	Pin[0 0 11810 2000 12610 4720 "" "2" "edge2"]
-	Pin[0 20000 11810 2000 12610 4720 "" "1" "edge2"]
-	Pin[0 -20000 11810 2000 12610 4720 "" "3" "edge2"]
-	ElementLine [-7500 25000 7500 25000 1500]
-	ElementLine [-7500 -25000 7500 -25000 1500]
-	ElementLine [7500 -25000 27500 -25000 1500]
-	ElementLine [27500 -25000 27500 25000 1500]
-	ElementLine [7500 25000 27500 25000 1500]
-	ElementLine [-17500 -25000 -7500 -25000 1500]
-	ElementLine [-17500 -25000 -17500 25000 1500]
-	ElementLine [-17500 25000 -7500 25000 1500]
-	ElementLine [27500 -20000 65000 -20000 1500]
-	ElementLine [65000 -20000 65000 0 1500]
-	ElementLine [27500 20000 65000 20000 1500]
-	ElementLine [65000 0 65000 20000 1500]
-	ElementLine [65000 12500 100000 12500 1500]
-	ElementLine [100000 -12500 100000 12500 1500]
-	ElementLine [65000 -12500 100000 -12500 1500]
-	ElementLine [-15000 -25000 -15000 25000 1500]
+	Attribute("author" "Patrick Pouget")
+	Attribute("use-license" "Unlimited")
+	Attribute("dist-license" "CC-BY-SA-2.5")
+	Pin[0 -15000 8000 2000 9000 4080 "1" "1" "edge2"]
+	Pin[0 -5000 8000 2000 9000 4080 "2" "2" "edge2"]
+	Pin[0 5000 8000 2000 9000 4080 "3" "3" "edge2"]
+	Pin[0 15000 8000 2000 9000 4080 "4" "4" "edge2"]
+	Pin[-5394 22500 7087 2000 7087 7087 "" "" "hole,edge2"]
+	Pin[-5394 -22500 7087 2000 7087 7087 "" "" "hole,edge2"]
+	ElementLine [24606 -26575 24606 -22638 800]
+	ElementLine [24606 26575 24606 22638 800]
+	ElementLine [52559 22638 52559 -22638 800]
+	ElementLine [-15945 26575 -15945 -26575 800]
+	ElementLine [24606 -22638 52559 -22638 800]
+	ElementLine [-15945 -26575 24606 -26575 800]
+	ElementLine [24606 22638 52559 22638 800]
+	ElementLine [-15945 26575 24606 26575 800]
 
 	)
 
@@ -3273,7 +3292,7 @@ Element["" "Tantalum SMT capacitor (pin 1 is +)" "C43" "EIA7343" 376000 352000 2
 
 	)
 
-Element["" "Standard SMT resistor, capacitor etc" "C41" "0805" 375000 413000 7893 -4043 0 100 ""]
+Element["" "Standard SMT resistor, capacitor etc" "C41" "0805" 375000 413000 1893 4457 0 100 ""]
 (
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
 	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
@@ -3309,26 +3328,6 @@ Element["" "Standard SMT resistor, capacitor etc" "C38" "0805" 241000 390500 -93
 
 	)
 
-Element["" "Amphenol mini XLR 4 PCB male" "CONN7" "Mini XLR 4" 426000 226000 -23000 20843 1 100 ""]
-(
-	Attribute("dist-license" "CC-BY-SA-2.5")
-	Pin[0 -15000 8000 2000 12000 4080 "1" "1" "edge2"]
-	Pin[0 -5000 8000 2000 12000 4080 "2" "2" "edge2"]
-	Pin[0 5000 8000 2000 12000 4080 "3" "3" "edge2"]
-	Pin[0 15000 8000 2000 12000 3937 "4" "4" "edge2"]
-	Pin[-5394 22500 7087 2000 12000 7087 "" "" "hole,edge2"]
-	Pin[-5394 -22500 7087 2000 12000 7087 "" "" "hole,edge2"]
-	ElementLine [24606 -26575 24606 -22638 800]
-	ElementLine [24606 26575 24606 22638 800]
-	ElementLine [52559 22638 52559 -22638 800]
-	ElementLine [-15945 26575 -15945 -26575 800]
-	ElementLine [24606 -22638 52559 -22638 800]
-	ElementLine [-15945 -26575 24606 -26575 800]
-	ElementLine [24606 22638 52559 22638 800]
-	ElementLine [-15945 26575 24606 26575 800]
-
-	)
-
 Element["" "Ferrite30x19" "X205" "FERRITE30x19" 338000 230000 37000 -64500 0 100 ""]
 (
 	Pin[-40000 -30000 8800 3000 9400 5200 "1" "1" "edge2"]
@@ -3353,6 +3352,32 @@ Element["" "Ferrite30x19" "X205" "FERRITE30x19" 338000 230000 37000 -64500 0 100
 	ElementArc [0 0 21500 21500 180 180 900]
 	ElementArc [0 0 4400 4400 0 180 1200]
 	ElementArc [0 0 4400 4400 180 180 1200]
+
+	)
+
+Element["" "Axial diode (pin 1 is cathode)" "D207" "ALF300" 310500 322000 21000 -9000 0 100 ""]
+(
+	Pin[30000 0 5200 3000 5800 2200 "1" "1" "square,edge2"]
+	Pin[0 0 5200 3000 5800 2200 "2" "2" "edge2"]
+	ElementLine [10000 -5000 10000 5000 1000]
+	ElementLine [20000 5000 10000 0 1000]
+	ElementLine [20000 -5000 20000 5000 1000]
+	ElementLine [10000 0 20000 -5000 1000]
+	ElementLine [20000 0 30000 0 1000]
+	ElementLine [0 0 10000 0 1000]
+
+	)
+
+Element["" "Axial diode (pin 1 is cathode)" "D9" "ALF300" 225000 183500 -8000 7500 1 100 ""]
+(
+	Pin[0 30000 5200 3000 5800 2200 "1" "1" "square"]
+	Pin[0 0 5200 3000 5800 2200 "2" "2" ""]
+	ElementLine [-5000 10000 5000 10000 1000]
+	ElementLine [-5000 20000 0 10000 1000]
+	ElementLine [-5000 20000 5000 20000 1000]
+	ElementLine [0 10000 5000 20000 1000]
+	ElementLine [0 20000 0 30000 1000]
+	ElementLine [0 0 0 10000 1000]
 
 	)
 Layer(1 "component")
@@ -3825,7 +3850,7 @@ Layer(1 "component")
 	Line[268500 283000 273500 283000 1400 2000 "clearline"]
 	Line[293500 307000 310500 307000 1400 2000 "clearline"]
 	Line[291000 372000 285500 372000 1400 2000 "clearline"]
-	Line[293500 322000 310500 322000 1400 2000 "clearline"]
+	Line[388500 415000 388500 420500 1800 2000 "clearline"]
 	Line[338000 372000 332500 372000 1400 2000 "clearline"]
 	Line[260500 386500 354500 386500 2500 2000 "clearline"]
 	Line[273190 371500 273190 376190 1400 2000 "clearline"]
@@ -3895,13 +3920,13 @@ Layer(1 "component")
 	Line[233500 262500 231000 274500 4000 2000 "clearline"]
 	Line[304905 386905 305000 395500 2500 2000 "clearline"]
 	Line[315500 413000 273000 413000 2500 2000 "clearline"]
-	Line[323500 433500 370000 433500 4000 2000 "clearline"]
-	Line[403500 348500 403500 400000 4000 2000 "clearline"]
+	Line[426500 360000 426500 338500 4000 2000 "clearline"]
+	Line[277500 217000 268500 226000 2500 2000 "clearline"]
 	Line[295500 395500 305000 395500 1000 2000 "clearline"]
 	Line[347500 386500 347500 395500 2500 2000 "clearline"]
 	Line[347500 395500 342500 395500 1000 2000 "clearline"]
 	Line[363500 412000 371000 412000 1000 2000 "clearline"]
-	Line[428000 338500 428000 328300 2500 2000 "clearline"]
+	Line[426500 338500 426500 328300 2500 2000 "clearline"]
 	Line[198000 206500 204936 206500 1000 2000 "clearline"]
 	Line[225000 200000 225000 213500 1400 2000 "clearline"]
 	Line[298000 260000 298000 291500 4000 2000 "clearline"]
@@ -3916,9 +3941,9 @@ Layer(1 "component")
 	Line[242000 343500 242000 380500 4000 2000 "clearline"]
 	Line[254000 366000 254000 399500 4000 2000 "clearline"]
 	Line[325000 400500 332500 408500 1400 2000 "clearline"]
-	Line[428000 338500 421000 338500 4000 2000 "clearline"]
-	Line[323500 433500 323500 446300 2500 2000 "clearline"]
 	Line[421000 338500 403500 348500 4000 2000 "clearline"]
+	Line[323500 433500 323500 446300 2500 2000 "clearline"]
+	Line[402000 433500 426500 417000 4000 2000 "clearline"]
 	Line[231000 288000 231000 274500 4000 2000 "clearline"]
 	Line[235850 293000 236957 294107 1000 2000 "clearline"]
 	Line[223000 292500 223000 288000 4000 2000 "clearline"]
@@ -3953,7 +3978,7 @@ Layer(1 "component")
 	Line[275000 450500 275000 446500 1000 2000 "clearline"]
 	Line[261500 441500 261500 464500 4000 2000 "clearline"]
 	Line[318000 280000 328000 280000 2500 2000 "clearline"]
-	Line[421000 338500 421000 328500 2500 2000 "clearline"]
+	Line[420000 338500 420000 328500 2500 2000 "clearline"]
 	Line[243500 433500 243500 464500 4000 2000 "clearline"]
 	Line[249500 439500 249500 464500 4000 2000 "clearline"]
 	Line[255500 441500 255500 464500 4000 2000 "clearline"]
@@ -3970,7 +3995,7 @@ Layer(1 "component")
 	Line[215000 392000 243500 410000 4000 2000 "clearline"]
 	Line[269500 446500 269500 441000 2500 2000 "clearline"]
 	Line[269500 446500 243500 446500 2500 2000 "clearline"]
-	Line[411000 395000 411000 409000 1800 2000 "clearline"]
+	Line[329500 412000 329500 417500 2500 2000 "clearline"]
 	Line[246000 418500 252000 423000 1400 2000 "clearline"]
 	Line[380500 388500 376500 385000 1400 2000 "clearline"]
 	Line[252000 423000 323500 423000 1400 2000 "clearline"]
@@ -4070,17 +4095,17 @@ Layer(1 "component")
 	Line[375000 339000 370000 334000 1800 2000 "clearline"]
 	Line[375000 348500 385400 348500 1800 2000 "clearline"]
 	Line[370000 334000 370000 303500 1800 2000 "clearline"]
-	Line[403500 400000 370000 433500 4000 2000 "clearline"]
-	Line[423000 368500 422500 368500 1800 2000 "clearline"]
-	Line[422500 368500 413000 378000 1800 2000 "clearline"]
-	Line[414500 413000 396000 431500 1800 2000 "clearline"]
-	Line[411000 409000 392500 427500 1800 2000 "clearline"]
-	Line[413000 378000 413000 392500 1800 2000 "clearline"]
-	Line[423000 388500 414500 398500 1800 2000 "clearline"]
-	Line[414500 398500 414500 413000 1800 2000 "clearline"]
-	Line[413000 392500 411000 395000 1800 2000 "clearline"]
-	Line[388000 429500 390000 431500 1800 2000 "clearline"]
-	Line[390000 431500 396000 431500 1800 2000 "clearline"]
+	Line[360500 420000 371000 422000 1400 2000 "clearline"]
+	Line[298000 413000 298000 417500 2500 2000 "clearline"]
+	Line[303000 413000 303000 417500 2500 2000 "clearline"]
+	Line[278000 413000 278000 417500 2500 2000 "clearline"]
+	Line[283000 413000 283000 417500 2500 2000 "clearline"]
+	Line[308500 413000 308500 417500 2500 2000 "clearline"]
+	Line[293000 413000 293000 417500 2500 2000 "clearline"]
+	Line[288000 413000 288000 417500 2500 2000 "clearline"]
+	Line[324500 412000 324500 417500 2500 2000 "clearline"]
+	Line[320000 412000 320000 417500 2500 2000 "clearline"]
+	Line[343000 412000 343000 416000 1800 2000 "clearline"]
 	Line[241393 394043 252957 394043 1000 2000 "clearline"]
 	Line[233000 396500 237000 400000 1400 2000 "clearline"]
 	Line[237000 400000 241000 400500 1400 2000 "clearline"]
@@ -4115,21 +4140,17 @@ Layer(1 "component")
 	Line[355500 416500 366000 417000 1400 2000 "clearline"]
 	Line[348000 416000 348000 412000 1800 2000 "clearline"]
 	Line[339000 412000 339000 416000 1800 2000 "clearline"]
-	Line[343000 412000 343000 416000 1800 2000 "clearline"]
-	Line[320000 412000 320000 417500 2500 2000 "clearline"]
-	Line[324500 412000 324500 417500 2500 2000 "clearline"]
-	Line[329500 412000 329500 417500 2500 2000 "clearline"]
-	Line[278000 413000 278000 417500 2500 2000 "clearline"]
-	Line[283000 413000 283000 417500 2500 2000 "clearline"]
-	Line[288000 413000 288000 417500 2500 2000 "clearline"]
-	Line[293000 413000 293000 417500 2500 2000 "clearline"]
-	Line[298000 413000 298000 417500 2500 2000 "clearline"]
-	Line[303000 413000 303000 417500 2500 2000 "clearline"]
-	Line[308500 413000 308500 417500 2500 2000 "clearline"]
-	Line[392500 421000 388000 425500 1800 2000 "clearline"]
-	Line[388000 425500 388000 429500 1800 2000 "clearline"]
-	Line[360500 420000 371000 422000 1400 2000 "clearline"]
-	Line[277500 217000 268500 226000 2500 2000 "clearline"]
+	Line[426500 417000 426500 360000 3500 2000 "clearline"]
+	Line[323500 433500 402000 433500 4000 2000 "clearline"]
+	Line[388500 420500 392500 423000 1800 2000 "clearline"]
+	Line[407000 378500 417000 368500 2500 2000 "clearline"]
+	Line[407000 378500 400000 384500 1800 2000 "clearline"]
+	Line[400000 384500 400000 403500 1800 2000 "clearline"]
+	Line[400000 403500 388500 415000 1800 2000 "clearline"]
+	Line[417000 398500 411000 404500 1800 2000 "clearline"]
+	Line[392500 417500 411000 404500 1800 2000 "clearline"]
+	Line[417000 388500 417000 398500 1800 2000 "clearline"]
+	Line[293500 322000 310500 322000 1400 2000 "clearline"]
 	Polygon("")
 	(
 		[117000 254000] [96500 254000] [96500 262000] [117000 262000] 
@@ -4189,6 +4210,10 @@ Layer(1 "component")
 	Polygon("")
 	(
 		[299000 437500] [312500 437500] [312500 447000] [299000 447000] 
+	)
+	Polygon("")
+	(
+		[417500 335500] [429000 335500] [429000 341500] [417500 341500] 
 	)
 )
 Layer(2 "solder")
@@ -4790,7 +4815,7 @@ Layer(2 "solder")
 	Line[380600 321100 403400 321100 2500 2000 "clearline"]
 	Line[358000 280000 386000 308000 4000 2000 "clearline"]
 	Line[386000 308000 428000 308000 4000 2000 "clearline"]
-	Line[421000 338500 421000 328500 2500 2000 "clearline"]
+	Line[420000 338500 420000 328500 2500 2000 "clearline"]
 	Line[254000 330000 254000 441500 4000 2000 "clearline"]
 	Line[340500 293414 340405 293319 1400 2000 "clearline"]
 	Line[242000 365500 266500 365500 4000 2000 "clearline"]
@@ -4800,14 +4825,14 @@ Layer(2 "solder")
 	Line[243095 251331 243202 251224 1400 2000 "clearline"]
 	Line[254000 257500 254000 252236 1400 2000 "clearline"]
 	Line[254000 252236 255012 251224 1400 2000 "clearline"]
-	Line[260500 326500 267000 326500 1400 2000 "clearline"]
-	Line[267000 326500 270000 323000 1400 2000 "clearline"]
+	Line[260500 327000 267000 327000 1400 2000 "clearline"]
+	Line[267000 327000 270000 323000 1400 2000 "clearline"]
 	Line[270000 323000 270000 316500 1400 2000 "clearline"]
-	Line[260500 326500 258000 324000 1400 2000 "clearline"]
+	Line[260500 327000 258000 324000 1400 2000 "clearline"]
 	Line[258000 324000 258000 292000 1400 2000 "clearline"]
-	Line[269000 329000 275095 323181 1400 2000 "clearline"]
-	Line[269000 329000 259500 329000 1400 2000 "clearline"]
-	Line[259500 329000 255500 325000 1400 2000 "clearline"]
+	Line[269000 329500 275095 323181 1400 2000 "clearline"]
+	Line[269000 329500 259500 329500 1400 2000 "clearline"]
+	Line[259500 329500 255500 325000 1400 2000 "clearline"]
 	Line[255500 325000 255500 302000 1400 2000 "clearline"]
 	Line[255500 302000 253000 294500 1400 2000 "clearline"]
 	Line[248000 303000 252500 303000 1800 2000 "clearline"]
@@ -4823,7 +4848,7 @@ Layer(2 "solder")
 	Line[172000 322500 171000 313500 1000 2000 "clearline"]
 	Line[274500 296000 280276 296000 1400 2000 "clearline"]
 	Line[280276 296000 280595 295681 1400 2000 "clearline"]
-	Line[226000 350500 405500 350500 4000 2000 "clearline"]
+	Line[417000 360500 417000 368500 1800 2000 "clearline"]
 	Line[237000 337500 405500 337500 4000 2000 "clearline"]
 	Line[274500 358500 274500 337500 4000 2000 "clearline"]
 	Line[282500 358500 282500 330000 4000 2000 "clearline"]
@@ -4905,7 +4930,7 @@ Layer(2 "solder")
 	Line[246500 218000 249000 215500 1800 2000 "clearline"]
 	Line[249000 215500 249000 204500 1800 2000 "clearline"]
 	Line[260905 191905 264000 188300 1000 2000 "clearline"]
-	Line[405500 379000 405500 372724 1800 2000 "clearline"]
+	Line[351500 427000 351500 412500 1800 2000 "clearline"]
 	Line[281500 245000 298000 218000 1400 2000 "clearline"]
 	Line[298000 218000 298000 214000 1400 2000 "clearline"]
 	Line[251500 217500 268000 217500 1400 2000 "clearline"]
@@ -4946,12 +4971,12 @@ Layer(2 "solder")
 	Line[375500 395500 375500 401414 1400 2000 "clearline"]
 	Line[375500 401414 374595 402319 1400 2000 "clearline"]
 	Line[375500 390500 371414 390500 1400 2000 "clearline"]
-	Line[423000 408500 398500 408500 4000 2000 "clearline"]
-	Line[428000 338500 428000 328300 2500 2000 "clearline"]
+	Line[436000 408500 398500 408500 4000 2000 "clearline"]
+	Line[426500 339000 426500 328800 2500 2000 "clearline"]
 	Line[428000 308000 428000 317700 2500 2000 "clearline"]
 	Line[421000 308000 421000 321300 2500 2000 "clearline"]
 	Line[398500 439500 398500 337500 4000 2000 "clearline"]
-	Line[354500 379500 405500 379500 4000 2000 "clearline"]
+	Line[360500 420500 348000 420500 1800 2000 "clearline"]
 	Line[254000 427500 384500 427500 4000 2000 "clearline"]
 	Line[384500 337500 384500 385500 4000 2000 "clearline"]
 	Line[377500 337500 377500 385500 4000 2000 "clearline"]
@@ -4961,15 +4986,15 @@ Layer(2 "solder")
 	Line[280500 441500 280500 427500 4000 2000 "clearline"]
 	Line[370000 303500 376000 297500 1800 2000 "clearline"]
 	Line[391500 461000 391500 433500 4000 2000 "clearline"]
-	Line[398500 421500 405500 421500 4000 2000 "clearline"]
-	Line[398500 415000 405500 415000 4000 2000 "clearline"]
-	Line[398500 401500 405500 401500 4000 2000 "clearline"]
-	Line[398500 394500 405500 394500 4000 2000 "clearline"]
-	Line[398500 387500 405500 387500 4000 2000 "clearline"]
+	Line[398500 398500 407000 398500 4000 2000 "clearline"]
+	Line[334500 416000 351500 416000 1800 2000 "clearline"]
+	Line[355500 408000 355500 416500 1800 2000 "clearline"]
+	Line[405500 337500 405500 350500 4000 2000 "clearline"]
+	Line[351500 423500 360500 423500 1000 2000 "clearline"]
 	Line[287000 427500 287000 441500 4000 2000 "clearline"]
 	Line[294000 427500 294000 441500 4000 2000 "clearline"]
 	Line[398500 439500 361000 439500 4000 2000 "clearline"]
-	Line[398500 427500 405500 427500 4000 2000 "clearline"]
+	Line[407000 398500 407000 427500 4000 2000 "clearline"]
 	Line[384500 427500 384500 445500 4000 2000 "clearline"]
 	Line[377500 427500 377500 445500 4000 2000 "clearline"]
 	Line[370500 427500 370500 445500 4000 2000 "clearline"]
@@ -5001,9 +5026,9 @@ Layer(2 "solder")
 	Line[363500 385500 398500 385500 4000 2000 "clearline"]
 	Line[300500 408000 355500 408000 1400 2000 "clearline"]
 	Line[266500 413000 311000 413000 2500 2000 "clearline"]
-	Line[392500 421000 385500 420000 1000 2000 "clearline"]
-	Line[376000 423000 387500 423000 1400 2000 "clearline"]
-	Line[387500 423000 392500 427500 1400 2000 "clearline"]
+	Line[436000 350500 436000 368500 4000 2000 "clearline"]
+	Line[376000 423000 392500 423000 1400 2000 "clearline"]
+	Line[392500 417500 385436 417500 1000 2000 "clearline"]
 	Line[376000 423000 371000 422000 1400 2000 "clearline"]
 	Line[366000 417000 373000 417000 1400 2000 "clearline"]
 	Line[373000 417000 377850 417000 1000 2000 "clearline"]
@@ -5023,14 +5048,23 @@ Layer(2 "solder")
 	Line[339000 412000 339000 416000 1800 2000 "clearline"]
 	Line[348000 412000 348000 420500 1800 2000 "clearline"]
 	Line[343000 412000 343000 416000 1800 2000 "clearline"]
-	Line[334500 416000 351500 416000 1800 2000 "clearline"]
-	Line[351500 427000 351500 412500 1800 2000 "clearline"]
-	Line[355500 408000 355500 416500 1800 2000 "clearline"]
-	Line[360500 420500 348000 420500 1800 2000 "clearline"]
-	Line[351500 423500 360500 423500 1000 2000 "clearline"]
-	Line[405500 337500 405500 350500 4000 2000 "clearline"]
-	Line[405500 379500 405500 433500 4000 2000 "clearline"]
-	Line[408500 360500 423000 368500 1800 2000 "clearline"]
+	Line[398500 415000 407000 415000 4000 2000 "clearline"]
+	Line[398500 421500 436000 421500 4000 2000 "clearline"]
+	Line[426500 427500 426500 350500 4000 2000 "clearline"]
+	Line[405500 433500 405500 427500 4000 2000 "clearline"]
+	Line[399000 369000 407776 369000 1800 2000 "clearline"]
+	Line[408181 357595 414095 357595 1800 2000 "clearline"]
+	Line[414095 357595 417000 360500 1800 2000 "clearline"]
+	Line[226000 350500 436000 350500 4000 2000 "clearline"]
+	Line[436000 408500 436000 427500 4000 2000 "clearline"]
+	Line[436000 427500 398500 427500 4000 2000 "clearline"]
+	Line[417000 408500 417000 427500 4000 2000 "clearline"]
+	Line[436000 368500 427000 368500 4000 2000 "clearline"]
+	Line[427000 359500 436000 359500 4000 2000 "clearline"]
+	Line[407000 388500 417000 388500 2500 2000 "clearline"]
+	Line[363500 379000 398500 379000 4000 2000 "clearline"]
+	Line[384500 428000 398500 428000 2500 2000 "clearline"]
+	Line[391500 428000 391500 434500 2500 2000 "clearline"]
 	Polygon("")
 	(
 		[115000 245000] [115000 239500] [121500 239500] [121500 242000] [118500 245000] 
@@ -5072,13 +5106,13 @@ Layer(10 "solder_mask")
 Layer(11 "outline")
 (
 	Line[66000 167000 66000 468000 600 1200 "clearline"]
-	Line[87000 156000 417500 156000 600 1200 "clearline"]
-	Line[87000 479000 417500 479000 600 1200 "clearline"]
+	Line[87000 156000 416000 156000 600 1200 "clearline"]
+	Line[87000 479000 416000 479000 600 1200 "clearline"]
 	Line[445500 167000 445500 468000 600 1200 "clearline"]
 	Line[68500 470500 78500 470500 600 1200 "clearline"]
 	Line[68500 164500 78500 164500 600 1200 "clearline"]
-	Line[426000 470500 443000 470500 600 1200 "clearline"]
-	Line[426000 164500 443000 164500 600 1200 "clearline"]
+	Line[424500 470500 443000 470500 600 1200 "clearline"]
+	Line[424500 164500 443000 164500 600 1200 "clearline"]
 	Line[399000 229500 399000 238500 600 1200 "clearline"]
 	Line[340000 234000 352000 234000 600 1200 "clearline"]
 	Line[394500 299500 408500 299500 600 1200 "clearline"]
@@ -5093,14 +5127,14 @@ Layer(11 "outline")
 	Arc[68500 167000 2500 2500 600 1200 0 -90 "clearline"]
 	Arc[78500 476500 6000 6000 600 1200 270 -90 "clearline"]
 	Arc[443000 468000 2500 2500 600 1200 180 -90 "clearline"]
-	Arc[417500 476500 2500 2500 600 1200 180 -90 "clearline"]
+	Arc[416000 476500 2500 2500 600 1200 180 -90 "clearline"]
 	Arc[78500 158500 6000 6000 600 1200 180 -90 "clearline"]
-	Arc[417500 158500 2500 2500 600 1200 -90 -90 "clearline"]
+	Arc[416000 158500 2500 2500 600 1200 -90 -90 "clearline"]
 	Arc[443000 167000 2500 2500 600 1200 270 -90 "clearline"]
 	Arc[87000 476500 2500 2500 600 1200 90 -90 "clearline"]
 	Arc[68500 468000 2500 2500 600 1200 90 -90 "clearline"]
-	Arc[426000 476500 6000 6000 600 1200 0 -90 "clearline"]
-	Arc[426000 158500 6000 6000 600 1200 90 -90 "clearline"]
+	Arc[424500 476500 6000 6000 600 1200 0 -90 "clearline"]
+	Arc[424500 158500 6000 6000 600 1200 90 -90 "clearline"]
 	Arc[394500 295000 4500 4500 600 1200 0 90 "clearline"]
 	Arc[408500 295000 4500 4500 600 1200 90 90 "clearline"]
 	Arc[394500 281500 4500 4500 600 1200 180 90 "clearline"]
@@ -5142,8 +5176,8 @@ Layer(12 "fab_notes")
 	Line[488000 164500 488000 470500 600 1200 "clearline"]
 	Line[444500 470500 492500 470500 600 1200 "clearline"]
 	Line[445000 164500 492500 164500 600 1200 "clearline"]
-	Line[426000 164000 426000 138500 600 1200 "clearline"]
-	Line[426000 144500 445500 144500 600 1200 "clearline"]
+	Line[424500 164000 424500 138500 600 1200 "clearline"]
+	Line[424500 144500 445500 144500 600 1200 "clearline"]
 	Line[445500 138500 445500 165000 600 1200 "clearline"]
 	Line[66000 165500 66000 81500 600 1200 "clearline"]
 	Line[66000 86000 78500 86000 600 1200 "clearline"]
@@ -5171,7 +5205,7 @@ Layer(12 "fab_notes")
 	Text[493000 372500 1 254 "3.230in 82.042mm" ""]
 	Text[189500 504500 0 254 "3.795in 96.393mm" ""]
 	Text[189500 485000 0 254 "3.275in 83.185mm" ""]
-	Text[311000 134100 0 254 "0.195in 4.953mm" ""]
+	Text[311000 134100 0 254 "0.210in 5.334mm" ""]
 	Text[23500 69500 0 254 "0.125in 3.175mm" ""]
 	Text[512500 264000 1 254 "0.700in 17.780mm" ""]
 	Text[30500 218000 1 254 "0.165in 4.191mm" ""]
@@ -5236,6 +5270,17 @@ Layer(14 "silk")
 	Line[331000 211000 345500 211000 600 1200 "clearline"]
 	Line[275000 240500 292500 240500 600 1200 "clearline"]
 	Line[292500 240500 292500 244500 600 1200 "clearline"]
+	Line[422500 388500 424000 388500 600 1200 "clearline"]
+	Line[424000 388500 425000 389500 600 1200 "clearline"]
+	Line[425000 389500 428000 389500 600 1200 "clearline"]
+	Line[428000 389500 429000 388500 600 1200 "clearline"]
+	Line[429000 388500 433500 388500 600 1200 "clearline"]
+	Line[412000 378500 424000 378500 600 1200 "clearline"]
+	Line[424000 378500 425000 379500 600 1200 "clearline"]
+	Line[425000 379500 428000 379500 600 1200 "clearline"]
+	Line[428000 379500 429000 378500 600 1200 "clearline"]
+	Line[429000 378500 433500 378500 600 1200 "clearline"]
+	Line[412000 398500 433500 398500 600 1200 "clearline"]
 	Text[162000 272500 0 254 "A" "auto"]
 	Text[128100 258600 0 254 "C" "auto"]
 	Text[310500 416000 0 254 "A" "auto"]
@@ -5265,6 +5310,9 @@ Layer(15 "silk")
 	Line[384500 189500 389000 189500 600 1200 "clearline"]
 	Line[389000 189500 389000 200000 600 1200 "clearline"]
 	Line[389000 200000 384500 200000 600 1200 "clearline"]
+	Line[111500 261000 111500 255000 600 1200 "clearline"]
+	Line[111500 255000 113000 253500 600 1200 "clearline"]
+	Line[272500 467000 283000 467000 600 1200 "clearline"]
 	Text[117000 254500 0 254 "A" ""]
 	Text[189500 273500 0 254 "C" ""]
 	Text[111500 174500 0 254 "R" ""]
@@ -5281,6 +5329,25 @@ Layer(15 "silk")
 	Text[432000 261500 0 254 "a" ""]
 	Text[394000 209500 0 254 "a/b" ""]
 	Text[356500 205500 0 254 "30X19" ""]
+	Text[278500 416000 0 166 "H" ""]
+	Text[197500 335000 0 166 "L" ""]
+	Text[106500 328000 0 166 "L" ""]
+	Text[250000 250000 0 166 "L" ""]
+	Text[250000 223500 0 166 "L" ""]
+	Text[250000 197000 0 166 "L" ""]
+	Text[178500 194000 0 166 "L" ""]
+	Text[134000 194000 0 166 "L" ""]
+	Text[143000 225000 0 166 "L" ""]
+	Text[197000 225000 0 166 "L" ""]
+	Text[132000 273500 0 166 "L" ""]
+	Text[253500 275500 0 166 "L" ""]
+	Text[279500 393000 0 166 "H" ""]
+	Text[326500 393000 0 166 "H" ""]
+	Text[220500 363500 0 166 "H" ""]
+	Text[375500 393000 0 166 "H" ""]
+	Text[196500 311500 0 166 "H" ""]
+	Text[197000 251000 0 166 "L" ""]
+	Text[257000 171000 0 166 "L" ""]
 	Polygon("clearpoly")
 	(
 		[310000 257500] [329000 257500] [329000 262500] [310000 262500] 
@@ -5410,6 +5477,9 @@ NetList()
 		Connect("D5-3")
 		Connect("D215-1")
 		Connect("P200-1")
+		Connect("P201-1")
+		Connect("P201-4")
+		Connect("P201-5")
 		Connect("R1-1")
 		Connect("R5-1")
 		Connect("R13-2")
@@ -5515,6 +5585,7 @@ NetList()
 	(
 		Connect("C26-2")
 		Connect("P200-3")
+		Connect("P201-3")
 		Connect("R50-1")
 		Connect("R237-2")
 	)
@@ -6125,6 +6196,7 @@ NetList()
 	(
 		Connect("C44-2")
 		Connect("P200-2")
+		Connect("P201-2")
 	)
 	Net("Vcc" "(unknown)")
 	(
