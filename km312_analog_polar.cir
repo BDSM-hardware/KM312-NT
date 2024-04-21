@@ -1,0 +1,24 @@
+* Spice polarisation of the DXT651
+* DXT651 NPN Si 60.0V 3.00A  200MHz
+* This file is copywritted. Search the internet and/or paste the content here
+.include DXT651.cir
+
+.subckt polar_instanc the_input base_V measure_IB output_R R2_pol=2.67K
+V2 8 0 ac 0 dc 6V
+V3 6 0 ac 0 dc 10V
+R1 the_input base_V 1.5K
+R2 base_V 0 {R2_pol}
+R3 8 base_V 15.4K
+R4 6 10 100
+R5 output_R 0 4.7
+V4 base_V 2 AC 0 DC 0
+H1 measure_IB 0 V4 1
+Q1 10 2 output_R DI_DXT651
+.ends
+
+
+V1 999 0 ac 0 dc 0
+
+X1 999 1 2 3 polar_instanc R2_pol=3.4K
+X2 999 11 12 13 polar_instanc R2_pol=4.75K
+X3 999 21 22 23 polar_instanc R2_pol=6.81K

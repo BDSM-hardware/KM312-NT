@@ -19,46 +19,39 @@ One can soldered wires of a switch or pins for jumpers.
 Some people uses always the same sound card on the same computer with the same adjustments. In such case after adjusting the volume, a jumper can be moved to the feedback.
 
 Transformer is made using a 30x19 size ferrite because I still have some.
-If everybody is agree on a RM ferrite, I can make a branch for this.
-RM5 may be too small if the ferrite core is an air gaped model (for high precision RLC). I haven't check.
+The ungapped, providing about 6000nH/turn2, ferrite should be used. For the 630nH/turn2, an abrasive size P1200 / J1200 / F500 / ANSI600 has to be used. Since it slightly reduces the high, it is a good idea to use abrasive as well in order to remove some burrs on the coil former.
+The coils are: 100 turns of a 3/10mm 28.5AWG for each primary and 300 turns of a 2/10mm 32AWG for the secondary.
+
+If everybody is agree on a the same RM ferrite, I can make a branch to design the PCB modification.
+RM6 may be too small. I haven't check.
 RM10 is tricky without redesigning all the PCB.
 Use the forum for discussion.
 
-The potentiometer is a Sfernice P11VK.
-For mounting something else by a quick and dirty method, some vias are going to centered the drill.
+The potentiometer is a Sfernice P11VK or a Bourns 91A1A-B28-A10L 1K 10%
+For mounting something else by a quick and dirty method, some vias help to centered the drill.
 
 The 1N4148 diodes are through hole ... because I have a lot!
 
 On the topview PS file, I sometimes, or at some commits, looks like some SMD pads touches lines.
 It is a bug of my CAD software. There are 50 shades of grey but it uses only one (at 70%) for pads on both sides. I try to fix but I might forgot some.
 
-There is a letter A or C around the diodes BAT54 sot23 to help manual mounting.
+There is a letter A or C around the diodes BAT54 sot23 to help manual mounting, as both the BAT54A and BAT54C are in use.
 
 The folder PCB_CC contains the Gerbert exports. Don't forget to remove pcb_meca and/or box_meca if your provider hate them.
 
+The PCB had been mostly done when the capacitors C45 and C46 was added. Then a 1206 footprint is used to avoid to redesign. 
 
-
-TODO
-
-Verify again the analogue design using spice. Some values has been estimated, they may change.
-
-Oder a PCB, order the parts, mount a PCB and test it.
-
-Fix the large and narrow choice of potentiometers and their footprint
-
-
-
-NEWS
-
-The footprints I drawn has been verified, especially the drill diameters
-
-A bug has been fixed. The potentiometer is in a voltage divider. Due to it 20% tolerance, the output is not precise. A R237 resistor has been added in parrallel and the resistor R50 has been reduced to 3.32K
-
-ElecGeek fixed more values and decided, in the branch pulses_separ the input level to 1mW @600ohms on the output of X1 which means 1095mV max
-
-Some photo shows the progress, more news are in the commit messages.
 
 
 TODO LATER
 
 Verify the extended feedback
+
+
+
+IMPORTANT NOTE:
+
+The feedback is a very experimental feauture. I don't have time now. It has been drawn to reserve the space on the PCB. The version 2 is going to include it without redesiging everything, especially the mecanical part.
+The extended feedback may even go out as it is a little bit tricky to give a result at low stimulation levels. The voltage is low, the current is low as well, then that makes a 0 by 0 divide. In such case the light feedback (only the voltage) is going to remain on the PCB.
+The version 3 is going to use a FPGA. An algorithm can fixe the low stimulation level problem.
+
