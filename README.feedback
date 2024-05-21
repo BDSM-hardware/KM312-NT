@@ -1,0 +1,14 @@
+The basic feedback measures the voltage on the output.
+If it is too high, that means some gel has to be added.
+The 3 LED display can be switch between the input level and the feedback.
+
+However, if the level is low, the feedback is always good. It should be a display of the voltage divided by the requested current.
+
+The trick is at levels around zero, the result should be always OK.
+
+The voltage detection uses a 4 diodes bridges without compensation that keep to zero the 2 first volts on the primary. The lin-log-subtraction-lin way allow to compute, for instance, V/sqrt(I). A coefficient should be added and the sqrt should be something between 1 and 0.5 in order to fit a relevant scale of the display.
+
+The actual design is experimental. Unfortunately, I don't have time yet to validate.
+
+The PCB is design to be built with the full schematic. It is going to work or not.
+To use the basic feedback, X207, X208, X209 and D211 should be removed, and the connection should be done on the FB_light pin.

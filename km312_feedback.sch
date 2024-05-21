@@ -207,7 +207,7 @@ footprint=1206
 T 44700 44900 5 10 0 1 0 0 1
 tolerance=10%
 T 44700 44900 5 10 0 1 0 0 1
-comment=/
+comment=Only extend. FB
 T 44700 45200 5 10 1 1 0 0 1
 refdes=R225
 T 45300 45200 5 10 1 1 0 0 1
@@ -222,7 +222,7 @@ footprint=1206
 T 43100 43900 5 10 0 1 0 0 1
 tolerance=10%
 T 43100 43900 5 10 0 1 0 0 1
-comment=/
+comment=Only extend. FB
 T 43000 44200 5 10 1 1 0 0 1
 refdes=R224
 T 43600 44200 5 10 1 1 0 0 1
@@ -285,7 +285,7 @@ refdes=D211
 T 46400 46000 5 10 1 1 180 0 1
 value=BAT54AW
 T 45700 45900 5 10 0 1 180 0 1
-comment=Only full FB
+comment=Only extend. FB
 T 45700 45900 5 10 0 0 0 0 1
 model-name=DBAT85
 T 45700 45900 5 10 0 0 0 0 1
@@ -304,7 +304,7 @@ footprint=1206
 T 44700 42100 5 10 0 1 0 0 1
 tolerance=10%
 T 44700 42100 5 10 0 1 0 0 1
-comment=/
+comment=Only extend. FB
 T 44700 42400 5 10 1 1 0 0 1
 refdes=R229
 T 45300 42400 5 10 1 1 0 0 1
@@ -319,7 +319,7 @@ footprint=1206
 T 43100 41100 5 10 0 1 0 0 1
 tolerance=10%
 T 43100 41100 5 10 0 1 0 0 1
-comment=/
+comment=Only extend. FB
 T 43000 41400 5 10 1 1 0 0 1
 refdes=R228
 T 43600 41400 5 10 1 1 0 0 1
@@ -336,7 +336,7 @@ footprint=SOIC8
 T 44700 41000 5 10 0 1 0 0 1
 tolerance=/
 T 44700 41000 5 10 0 1 0 0 1
-comment=/
+comment=Only extend. FB
 T 44700 41000 5 10 0 1 0 0 1
 model-name=AMP_OP
 T 44800 41900 5 10 1 1 0 0 1
@@ -357,7 +357,7 @@ C 44800 42700 1 0 0 diode-BAT54AW.sym
 T 45200 43300 5 10 0 0 0 0 1
 device=DIODE
 T 44800 42700 5 10 0 1 0 0 1
-comment=Only full FB
+comment=Only extend. FB
 T 44500 43100 5 10 1 1 0 0 1
 refdes=D212
 T 45600 43100 5 10 1 1 0 0 1
@@ -393,7 +393,7 @@ value=100K
 T 46900 43400 5 10 0 0 0 0 1
 footprint=1206
 T 46900 43400 5 10 0 1 0 0 1
-comment=/
+comment=Only extend. FB
 }
 C 46900 42800 1 0 0 resistor-2.sym
 {
@@ -408,7 +408,7 @@ tolerance=2%
 T 46900 42800 5 10 0 0 0 0 1
 footprint=1206
 T 46900 42800 5 10 0 1 0 0 1
-comment=/
+comment=Only extend. FB
 }
 C 48400 42200 1 0 0 resistor-2.sym
 {
@@ -423,7 +423,7 @@ tolerance=2%
 T 48400 42200 5 10 0 0 0 0 1
 footprint=1206
 T 48400 42200 5 10 0 1 0 0 1
-comment=/
+comment=Only extend. FB
 }
 N 46900 43500 46000 43500 4
 C 48500 42700 1 0 0 opamp_gen_dil8_ci.sym
@@ -437,7 +437,7 @@ model-name=AMP_OP
 T 48500 42700 5 10 0 0 0 0 1
 footprint=SOIC8
 T 48500 42700 5 10 0 0 0 0 1
-comment=/
+comment=Only extend. FB
 T 48500 42700 5 10 0 0 0 0 1
 value=TLV07
 T 48500 42700 5 10 0 0 0 0 1
@@ -462,7 +462,7 @@ refdes=D213
 T 50400 43300 5 10 0 0 0 0 1
 model-name=DBAT85
 T 50400 43300 5 10 0 0 0 0 1
-comment=/
+comment=Only extend. FB
 T 50400 43300 5 10 0 0 0 0 1
 footprint=sot23
 T 50400 43300 5 10 0 0 0 0 1
@@ -479,7 +479,7 @@ footprint=1206
 T 51100 43200 5 10 0 1 0 0 1
 tolerance=10%
 T 51100 43200 5 10 0 1 0 0 1
-comment=/
+comment=Only extend. FB
 T 51100 43500 5 10 1 1 0 0 1
 refdes=R233
 T 51700 43500 5 10 1 1 0 0 1
@@ -494,7 +494,7 @@ footprint=1206
 T 49500 42200 5 10 0 1 0 0 1
 tolerance=10%
 T 49500 42200 5 10 0 1 0 0 1
-comment=/
+comment=Only extend. FB
 T 49600 42500 5 10 1 1 0 0 1
 refdes=R234
 T 50300 42500 5 10 1 1 0 0 1
@@ -511,7 +511,7 @@ footprint=SOIC8
 T 51100 42100 5 10 0 1 0 0 1
 tolerance=/
 T 51100 42100 5 10 0 1 0 0 1
-comment=/
+comment=Only extend. FB
 T 51100 42100 5 10 0 1 0 0 1
 model-name=AMP_OP
 T 51200 43000 5 10 1 1 0 0 1
