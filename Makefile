@@ -15,11 +15,11 @@ pcb		: $(DESTDIR)km312_digital.net
 
 schemas		: $(DESTDIR)sch_build_date
 
-$(DESTDIR)km312_digital.partslist_by_refdes.txt : $(SRCDIR)km312_D_analogue_1.sch
-	$(NETLIST_PROG) -g partslist1 -o $(DESTDIR)km312_digital.partslist_by_refdes.txt $(SRCDIR)km312_D_analogue_1.sch $(SRCDIR)km312_D_input_sound.sch
+$(DESTDIR)km312_digital.partslist_by_refdes.txt : $(SRCDIR)km312_D_analogue_1.sch $(SRCDIR)km312_D_input_sound.sch $(SRCDIR)km312_D_frontend.sch
+	$(NETLIST_PROG) -g partslist1 -o $(DESTDIR)km312_digital.partslist_by_refdes.txt $(SRCDIR)km312_D_analogue_1.sch $(SRCDIR)km312_D_input_sound.sch $(SRCDIR)km312_D_frontend.sch
 
-$(DESTDIR)km312_digital.partslist_by_value.txt : $(SRCDIR)km312_D_analogue_1.sch
-	$(NETLIST_PROG) -g partslist3 -o $(DESTDIR)km312_digital.partslist_by_value.txt $(SRCDIR)km312_D_analogue_1.sch $(SRCDIR)km312_D_input_sound.sch
+$(DESTDIR)km312_digital.partslist_by_value.txt : $(SRCDIR)km312_D_analogue_1.sch $(SRCDIR)km312_D_input_sound.sch $(SRCDIR)km312_D_frontend.sch
+	$(NETLIST_PROG) -g partslist3 -o $(DESTDIR)km312_digital.partslist_by_value.txt $(SRCDIR)km312_D_analogue_1.sch $(SRCDIR)km312_D_input_sound.sch $(SRCDIR)km312_D_frontend.sch
 
 
 $(BUILDDIR)AMP_OP.cir	:	$(SRCDIR)AMP_OP.sch
@@ -34,8 +34,8 @@ $(BUILDDIR)convert_test.cir	:	$(SRCDIR)convert_test.sch $(SRCDIR)transfo.sch $(S
 	$(NETLIST_PROG) -g spice-sdb -o $(BUILDDIR)transfo.cir $(SRCDIR)transfo.sch
 	$(NETLIST_PROG) -g spice-sdb -o $(BUILDDIR)convert_test.cir $(SRCDIR)convert_test.sch $(SRCDIR)km312_analog.sch
 
-$(DESTDIR)km312_digital.net : $(SRCDIR)km312_D_analogue_1.sch $(SRCDIR)km312_D_input_sound.sch
-	$(NETLIST_PROG) -g PCB -o $(DESTDIR)km312_digital_temp.net $(SRCDIR)km312_D_analogue_1.sch $(SRCDIR)km312_D_input_sound.sch
+$(DESTDIR)km312_digital.net : $(SRCDIR)km312_D_analogue_1.sch $(SRCDIR)km312_D_input_sound.sch $(SRCDIR)km312_D_frontend.sch
+	$(NETLIST_PROG) -g PCB -o $(DESTDIR)km312_digital_temp.net $(SRCDIR)km312_D_analogue_1.sch $(SRCDIR)km312_D_input_sound.sch $(SRCDIR)km312_D_frontend.sch
 	sed -r --file=$(SRCDIR)net_pcb_fix.reg $(DESTDIR)km312_digital_temp.net | sed -r --file=$(SRCDIR)net_pcb_fix_2.reg > $(DESTDIR)km312_digital_temp_2.net
 ifeq ($(SRCDIR),)
 	./pcb_doublons_fix.sh $(DESTDIR)km312_digital_temp_2.net $(DESTDIR)km312_digital.net
@@ -51,8 +51,8 @@ $(DESTDIR)sch_build_date	: $(SRCDIR)km312_D_analogue_1.sch
 	$(EXPORT_PROG) export -o $(DESTDIR)km312_analog_1.pdf $(SRCDIR)km312_D_analogue_1.sch
 	$(EXPORT_PROG) export -o $(DESTDIR)km312_input_sound.ps $(SRCDIR)km312_D_input_sound.sch
 	$(EXPORT_PROG) export -o $(DESTDIR)km312_input_sound.pdf $(SRCDIR)km312_D_input_sound.sch
-#	$(EXPORT_PROG) export -o $(DESTDIR)km312_feedback.ps $(SRCDIR)km312_feedback.sch
-#	$(EXPORT_PROG) export -o $(DESTDIR)km312_feedback.pdf $(SRCDIR)km312_feedback.sch
+	$(EXPORT_PROG) export -o $(DESTDIR)km312_D_frontend.ps $(SRCDIR)km312_D_frontend.sch
+	$(EXPORT_PROG) export -o $(DESTDIR)km312_D_frontend.pdf $(SRCDIR)km312_D_frontend.sch
 
 clean	:
 	rm -f $(DESTDIR)km312_digital.partslist_by_refdes.txt $(DESTDIR)km312_digital.partslist_by_value.txt
