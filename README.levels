@@ -1,0 +1,29 @@
+LEVEL display
+-------------
+
+This project takes the pulse_gene project as a control schematic diagram. It uses a 3 leds bar-graph. When the box is on but there is no signal, the green is on. When there is some signal, the amber is on. When it saturates, the red is on. The led "passes" from one to another one smoothly.
+
+Defined by R36 and R39 (R37 and R38 for the green), the threshold is 88.3% of the Vcc (11.7% for the green).
+Due to The drop out of D6 (shottky diode), the maximum is about 95%
+Defined by R34 (R35 for the green), the gain is 17.63, then the output moves from 0 to vcc by a 5.7% change around the threshold. 
+Defined by R29, R30 and D6_1, when the maximum is reached, the display looses a couple of percents.
+
+This provides a margin before the saturation.
+For a local usage or a remote usage with 100% trusted people, this is nice.
+
+The output level may be a little bit low. To increase the level; R203 and R209 can be decreased from 2.21ohms down-to 2.10ohms. In this case, C45 and C46 have to be increased from 390pF down-to 430pF.
+
+However, one may want to have a more fine display.
+The goal is to place a stronger limit to the remote driver.
+
+R29 is decreased from 6.19K down-to 2.21K to get a more accurate value.
+R34 (perhaps R35 as well) can be decreased from 750K down-to 475K. The gain is now 10.9 that make the output moving from 0 to Vcc with a 10.5% input move.
+
+C7 is the time constant of the display.
+Keeping a 4.7uF capacitor makes the display a peek display.
+Reducing down-to 1uF makes a vu-meter.
+
+
+INPUT level
+-----------
+
