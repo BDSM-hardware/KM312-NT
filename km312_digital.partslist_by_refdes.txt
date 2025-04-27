@@ -67,22 +67,28 @@ D21	DIODE	unknown	unknown	unknown	unknown	1
 D22	DIODE	unknown	unknown	unknown	unknown	1
 D23	DIODE	unknown	unknown	unknown	unknown	1
 D24	DIODE	unknown	unknown	unknown	unknown	1
-D25	LED	unknown	/	R?G?	100mil	1
-D26	LED	unknown	/	Amber	100mil	1
-D27	LED	unknown	/	Amber	100mil	1
-D28	LED	unknown	/	R?G?	100mil	1
-D29	LED	unknown	/	R?G?	100mil	1
-D30	LED	unknown	/	Amber	100mil	1
-D31	LED	unknown	/	Amber	100mil	1
-D32	LED	unknown	/	R?G?	100mil	1
+D25	LED	C503B-	/	R	100mil	1
+D26	LED	C503B-ACN	/	Amber	100mil	1
+D27	LED	C503B-ACN	/	Amber	100mil	1
+D28	LED	unknown	/	G	100mil	1
+D29	LED	unknown	/	R	100mil	1
+D30	LED	C503B-ACN	/	Amber	100mil	1
+D31	LED	C503B-ACN	/	Amber	100mil	1
+D32	LED	unknown	/	G	100mil	1
 D33	LED	unknown	/	R?G?	100mil	1
-D34	LED	unknown	/	Amber	100mil	1
-D35	LED	unknown	/	Amber	100mil	1
+D34	LED	C503B-ACN	/	Amber	100mil	1
+D35	LED	C503B-ACN	/	Amber	100mil	1
 D36	LED	unknown	/	R?G?	100mil	1
 D37	LED	unknown	/	R?G?	100mil	1
-D38	LED	unknown	/	Amber	100mil	1
-D39	LED	unknown	/	Amber	100mil	1
+D38	LED	C503B-ACN	/	Amber	100mil	1
+D39	LED	C503B-ACN	/	Amber	100mil	1
 D40	LED	unknown	/	R?G?	100mil	1
+D41	DIODE	1N4148	/	/	SOT23	1
+D42	DIODE	1N4148	/	/	SOT23	1
+D43	DIODE	1N4148	/	/	SOT23	1
+D44	DIODE	1N4148	/	/	SOT23	1
+D45	DIODE	1N4148	/	/	SOT23	1
+D46	DIODE	1N4148	/	/	SOT23	1
 Q91	NPN_TRANSISTOR	DXT651	/	/	sot89-3	1
 Q92	NPN_TRANSISTOR	DXT651	/	/	sot89-3	1
 Q93	NPN_TRANSISTOR	DXT651	/	/	sot89-3	1
@@ -131,13 +137,6 @@ R146	RESISTOR	unknown	unknown	unknown	1206	1
 R147	RESISTOR	unknown	unknown	unknown	1206	1
 R148	RESISTOR	unknown	unknown	unknown	1206	1
 R15	RESISTOR	4.75K	2%	/	1206	1
-R152	RESISTOR	1K	2%	group 3 luminance	0805	1
-R153	RESISTOR	1K	2%	group 3 luminance	0805	1
-R154	RESISTOR	1K	2%	group 4 luminance	0805	1
-R155	RESISTOR	1K	2%	group 2 luminance	0805	1
-R156	RESISTOR	1K	2%	group 3 luminance	0805	1
-R157	RESISTOR	1K	2%	group 3 luminance	0805	1
-R158	RESISTOR	1K	2%	group 4 luminance	0805	1
 R17	RESISTOR	100	2%	/	1206	1
 R18	RESISTOR	22.1K	10%	/	1206	1
 R19	RESISTOR	22.1K	10%	/	1206	1
@@ -159,8 +158,8 @@ R202	RESISTOR	475	2%	group 1 luminance	0805	1
 R203	RESISTOR	475	2%	group 1 luminance	0805	1
 R204	RESISTOR	475	2%	group 1 luminance	0805	1
 R205	RESISTOR	475	2%	group 1 luminance	0805	1
-R206	RESISTOR	475	2%	group 1 luminance	unknown	1
-R207	RESISTOR	475	2%	group 1 luminance	unknown	1
+R206	RESISTOR	475	2%	group 1 luminance	0805	1
+R207	RESISTOR	475	2%	group 1 luminance	0805	1
 R208	RESISTOR	475	2%	group 1 luminance	0805	1
 R209	RESISTOR	475	2%	group 1 luminance	0805	1
 R21	RESISTOR	2.21	1%	Depends output level	2512	1
@@ -178,6 +177,13 @@ R22	RESISTOR	6.19K	2%	/	1206	1
 R220	RESISTOR	475	2%	group 1 luminance	0805	1
 R221	RESISTOR	475	2%	group 1 luminance	0805	1
 R222	RESISTOR	1K	2%	group 2 luminance	0805	1
+R223	RESISTOR	1K	2%	group 3 luminance	0805	1
+R224	RESISTOR	1K	2%	group 3 luminance	0805	1
+R225	RESISTOR	1K	2%	group 4 luminance	0805	1
+R226	RESISTOR	1K	2%	group 2 luminance	0805	1
+R227	RESISTOR	1K	2%	group 3 luminance	0805	1
+R228	RESISTOR	1K	2%	group 3 luminance	0805	1
+R229	RESISTOR	1K	2%	group 4 luminance	0805	1
 R23	RESISTOR	15.4K	2%	/	1206	1
 R230	RESISTOR	1K	2%	group 2 luminance	0805	1
 R231	RESISTOR	1K	2%	group 3 luminance	0805	1
@@ -263,10 +269,10 @@ R96	RESISTOR	750K	10%	/	1206	1
 R97	RESISTOR	750K	2%	/	1206	1
 R98	RESISTOR	750K	2%	/	1206	1
 R99	RESISTOR	22.1K	2%	/	1206	1
-U12	ACSA04	unknown	unknown	unknown	SMD	1
-U13	ACSA04	unknown	unknown	unknown	SMD	1
-U14	ACSA04	unknown	unknown	unknown	SMD	1
-U15	ACSA04	unknown	unknown	unknown	SMD	1
+U12	ACSA04	unknown	/	BL	SMD	1
+U13	ACSA04	unknown	/	BL	SMD	1
+U14	ACSA04	unknown	/	BL	SMD	1
+U15	ACSA04	unknown	/	BL	SMD	1
 X1	LM741	OPA196IDR	/	/	SOIC8	1
 X10	ZENER_DIODE	unknown	/	see_README	DO214	1
 X11	ZENER_DIODE	unknown	/	see_README	DO214	1
@@ -276,13 +282,14 @@ X14	TRANSFORMER 	unknown	unknown	unknown	Siemens 30x19	1
 X15	TRANSFORMER 	unknown	unknown	unknown	Siemens 30x19	1
 X16	TRANSFORMER 	unknown	unknown	unknown	Siemens 30x19	1
 X17	IDT7204	unknown	unknown	unknown	unknown	1
-X19	74595	unknown	unknown	unknown	SOIC16	1
+X19	74??	unknown	/	unknown	SOIC16	1
 X2	LM741	OPA196IDR	/	/	SOIC8	1
-X20	74595	unknown	unknown	unknown	DIP16	1
-X21	74595	unknown	unknown	unknown	SOIC16	1
-X22	74595	unknown	unknown	unknown	DIP16	1
-X24	74595	unknown	unknown	unknown	SOIC16	1
-X25	74595	unknown	unknown	unknown	SOIC16	1
+X20	74??	unknown	/	unknown	SOIC16	1
+X21	74??	unknown	/	unknown	SOIC16	1
+X22	74??	unknown	/	unknown	SOIC16	1
+X23	74??	unknown	/	unknown	SOIC16	1
+X24	74??	unknown	/	unknown	SOIC16	1
+X25	74??	unknown	/	unknown	SOIC16	1
 X3	LM741	OPA196IDR	/	/	SOIC8	1
 X4	LM741	OPA196IDR	/	/	SOIC8	1
 X5	LM741	OPA196IDR	/	/	SOIC8	1
