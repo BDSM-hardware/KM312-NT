@@ -1,0 +1,93 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 0 0 595 842
+
+64 dict begin
+
+72 25.4 div dup scale
+
+% enter as degres trigo (CCW), I am going to convert
+/start_angle 240 def
+/end_angle -60 def
+/radius_button 5 def
+/radius_plug 5.5 def
+
+%/start_angle start_angle 180 div 200 mul def
+%/end_angle end_angle 180 div 200 mul def
+
+
+105 100 translate
+
+/Helvetica findfont 8 scalefont setfont
+26.289 61.849 sub 2 div % Axis of the label
+(KM312 NT) dup stringwidth pop 2 div 3 -1 roll exch sub -20 moveto show 
+
+matrix currentmatrix
+/Helvetica findfont 6 scalefont setfont
+67.564 0 translate
+(Output) dup stringwidth pop 2 div neg -20 moveto show
+/Helvetica findfont 3 scalefont setfont
+(Left: pins 1-3) dup stringwidth pop 2 div neg 12 moveto show 
+(Right: pins 1-2) dup stringwidth pop 2 div neg 16 moveto show 
+
+
+0 0 1 0 setcmykcolor
+radius_plug -3.937 moveto
+0 -3.937 radius_plug 0 360 arc
+stroke
+0 0 0 1 setcmykcolor
+setmatrix
+
+/Helvetica findfont 6 scalefont setfont
+0 1 1
+{
+	matrix currentmatrix
+	exch
+	0 eq
+	{
+		26.289 0 translate
+	}{
+		-61.849 0 translate
+	}ifelse
+	0 0 1 0 setcmykcolor
+	radius_button 0 moveto
+	0 0 radius_button 0 360 arc
+	stroke
+	0 0 0 1 setcmykcolor
+
+	start_angle rotate
+	0 1 10
+	{
+		% distance digits from pot center
+		20 0 moveto
+		matrix currentmatrix
+		exch
+		dup
+		start_angle end_angle sub 10 div mul start_angle sub rotate 
+		dup 5 eq
+		{
+			% centered
+			10 mul 10 string cvs
+			dup stringwidth pop 2 div neg 0 rmoveto show
+		}{
+			dup
+			5 lt
+			{
+				% right justified
+				10 mul 10 string cvs
+				dup stringwidth pop neg 0 rmoveto show
+			}{
+				10 mul 10 string cvs
+				show
+			}ifelse
+		} ifelse
+		setmatrix
+		radius_button 0 moveto
+		18 0 lineto %outer diameter of the lines
+		stroke
+		start_angle end_angle sub 10 div neg rotate
+	}for
+	setmatrix
+}for
+end
+showpage
+%%EOF
