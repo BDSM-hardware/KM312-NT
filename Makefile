@@ -47,10 +47,10 @@ endif
 
 
 $(DESTDIR)sch_build_date	: $(SRCDIR)km312_D_analogue_1.sch  
-	$(EXPORT_PROG) export -o $(DESTDIR)km312_analog_1.ps $(SRCDIR)km312_D_analogue_1.sch
-	$(EXPORT_PROG) export -o $(DESTDIR)km312_analog_1.pdf $(SRCDIR)km312_D_analogue_1.sch
-	$(EXPORT_PROG) export -o $(DESTDIR)km312_input_sound.ps $(SRCDIR)km312_D_input_sound.sch
-	$(EXPORT_PROG) export -o $(DESTDIR)km312_input_sound.pdf $(SRCDIR)km312_D_input_sound.sch
+	$(EXPORT_PROG) export -o $(DESTDIR)km312_D_analog_1.ps $(SRCDIR)km312_D_analogue_1.sch
+	$(EXPORT_PROG) export -o $(DESTDIR)km312_D_analog_1.pdf $(SRCDIR)km312_D_analogue_1.sch
+	$(EXPORT_PROG) export -o $(DESTDIR)km312_D_input_sound.ps $(SRCDIR)km312_D_input_sound.sch
+	$(EXPORT_PROG) export -o $(DESTDIR)km312_D_input_sound.pdf $(SRCDIR)km312_D_input_sound.sch
 	$(EXPORT_PROG) export -o $(DESTDIR)km312_D_frontend.ps $(SRCDIR)km312_D_frontend.sch
 	$(EXPORT_PROG) export -o $(DESTDIR)km312_D_frontend.pdf $(SRCDIR)km312_D_frontend.sch
 
