@@ -1,2 +1,5 @@
-*.ps  linguist-vendored
-*.pdf  linguist-vendored
+*.ps  linguist-documentation
+*.pdf  linguist-documentation
+*.cir  linguist-language=spice
+*.sch  linguist-language=schematic
+*.pcb  linguist-language=layout
