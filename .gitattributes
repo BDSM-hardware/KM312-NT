@@ -1,5 +1,6 @@
 *.ps  linguist-documentation
 *.pdf  linguist-documentation
 *.cir  linguist-language=spice
-*.sch  linguist-language=schematic
-*.pcb  linguist-language=layout
+*.sch  linguist-detectable
+*.pcb  linguist-detectable
+*.gbr  linguist-detectable
