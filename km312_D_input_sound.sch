@@ -472,7 +472,7 @@ C 45000 46300 1 0 0 resistor-2.sym
 T 45400 46650 5 10 0 0 0 0 1
 device=RESISTOR
 T 45200 46600 5 10 1 1 0 0 1
-refdes=R145
+refdes=R130
 T 45000 46300 5 10 0 0 0 0 1
 footprint=1206
 }
@@ -482,7 +482,7 @@ C 45000 44500 1 0 0 resistor-2.sym
 T 45400 44850 5 10 0 0 0 0 1
 device=RESISTOR
 T 45200 44800 5 10 1 1 0 0 1
-refdes=R146
+refdes=R131
 T 45000 44500 5 10 0 0 0 0 1
 footprint=1206
 }
@@ -492,7 +492,7 @@ C 45000 42800 1 0 0 resistor-2.sym
 T 45400 43150 5 10 0 0 0 0 1
 device=RESISTOR
 T 45200 43100 5 10 1 1 0 0 1
-refdes=R147
+refdes=R132
 T 45000 42800 5 10 0 0 0 0 1
 footprint=1206
 }
@@ -502,7 +502,7 @@ C 45000 41100 1 0 0 resistor-2.sym
 T 45400 41450 5 10 0 0 0 0 1
 device=RESISTOR
 T 45200 41400 5 10 1 1 0 0 1
-refdes=R148
+refdes=R133
 T 45000 41100 5 10 0 0 0 0 1
 footprint=1206
 }
@@ -542,7 +542,7 @@ device=RESISTOR
 T 46200 54700 5 10 0 0 0 0 1
 footprint=0805
 T 46200 55000 5 10 1 1 0 0 1
-refdes=R154
+refdes=R144
 }
 C 46200 54100 1 0 0 resistor-2.sym
 {
@@ -551,7 +551,7 @@ device=RESISTOR
 T 46200 54100 5 10 0 0 0 0 1
 footprint=0805
 T 46200 54400 5 10 1 1 0 0 1
-refdes=R155
+refdes=R145
 }
 C 48600 54700 1 0 0 resistor-2.sym
 {
@@ -560,7 +560,7 @@ device=RESISTOR
 T 48600 54700 5 10 0 0 0 0 1
 footprint=0805
 T 48500 55000 5 10 1 1 0 0 1
-refdes=R172
+refdes=R152
 }
 C 48600 54100 1 0 0 resistor-2.sym
 {
@@ -569,7 +569,7 @@ device=RESISTOR
 T 48600 54100 5 10 0 0 0 0 1
 footprint=0805
 T 48500 54400 5 10 1 1 0 0 1
-refdes=R173
+refdes=R153
 }
 C 47500 54300 1 0 0 capacitor-1.sym
 {
@@ -637,7 +637,7 @@ device=RESISTOR
 T 46200 53000 5 10 0 0 0 0 1
 footprint=0805
 T 46200 53300 5 10 1 1 0 0 1
-refdes=R156
+refdes=R146
 }
 C 46200 52400 1 0 0 resistor-2.sym
 {
@@ -646,7 +646,7 @@ device=RESISTOR
 T 46200 52400 5 10 0 0 0 0 1
 footprint=0805
 T 46200 52700 5 10 1 1 0 0 1
-refdes=R157
+refdes=R147
 }
 C 48600 53000 1 0 0 resistor-2.sym
 {
@@ -655,7 +655,7 @@ device=RESISTOR
 T 48600 53000 5 10 0 0 0 0 1
 footprint=0805
 T 48500 53300 5 10 1 1 0 0 1
-refdes=R174
+refdes=R154
 }
 C 48600 52400 1 0 0 resistor-2.sym
 {
@@ -664,7 +664,7 @@ device=RESISTOR
 T 48600 52400 5 10 0 0 0 0 1
 footprint=0805
 T 48500 52700 5 10 1 1 0 0 1
-refdes=R175
+refdes=R155
 }
 C 47500 52600 1 0 0 capacitor-1.sym
 {
@@ -732,7 +732,7 @@ device=RESISTOR
 T 45000 52700 5 10 0 0 0 0 1
 footprint=1206
 T 44900 53000 5 10 1 1 0 0 1
-refdes=R151
+refdes=R141
 }
 C 45000 54400 1 0 0 resistor-2.sym
 {
@@ -741,7 +741,7 @@ device=RESISTOR
 T 45000 54400 5 10 0 0 0 0 1
 footprint=1206
 T 44900 54700 5 10 1 1 0 0 1
-refdes=R150
+refdes=R140
 }
 N 45900 54500 45900 53900 4
 N 45000 54500 45000 54800 4
@@ -757,7 +757,7 @@ device=RESISTOR
 T 46200 51300 5 10 0 0 0 0 1
 footprint=0805
 T 46200 51600 5 10 1 1 0 0 1
-refdes=R158
+refdes=R148
 }
 C 46200 50700 1 0 0 resistor-2.sym
 {
@@ -766,7 +766,7 @@ device=RESISTOR
 T 46200 50700 5 10 0 0 0 0 1
 footprint=0805
 T 46200 51000 5 10 1 1 0 0 1
-refdes=R159
+refdes=R149
 }
 C 48600 51300 1 0 0 resistor-2.sym
 {
@@ -775,7 +775,7 @@ device=RESISTOR
 T 48600 51300 5 10 0 0 0 0 1
 footprint=0805
 T 48500 51600 5 10 1 1 0 0 1
-refdes=R176
+refdes=R156
 }
 C 48600 50700 1 0 0 resistor-2.sym
 {
@@ -784,7 +784,7 @@ device=RESISTOR
 T 48600 50700 5 10 0 0 0 0 1
 footprint=0805
 T 48500 51000 5 10 1 1 0 0 1
-refdes=R177
+refdes=R157
 }
 C 47500 50900 1 0 0 capacitor-1.sym
 {
@@ -852,7 +852,7 @@ device=RESISTOR
 T 46200 49600 5 10 0 0 0 0 1
 footprint=0805
 T 46200 49900 5 10 1 1 0 0 1
-refdes=R160
+refdes=R150
 }
 C 46200 49000 1 0 0 resistor-2.sym
 {
@@ -861,7 +861,7 @@ device=RESISTOR
 T 46200 49000 5 10 0 0 0 0 1
 footprint=0805
 T 46200 49300 5 10 1 1 0 0 1
-refdes=R161
+refdes=R151
 }
 C 48600 49600 1 0 0 resistor-2.sym
 {
@@ -870,7 +870,7 @@ device=RESISTOR
 T 48600 49600 5 10 0 0 0 0 1
 footprint=0805
 T 48500 49900 5 10 1 1 0 0 1
-refdes=R168
+refdes=R158
 }
 C 48600 49000 1 0 0 resistor-2.sym
 {
@@ -879,7 +879,7 @@ device=RESISTOR
 T 48600 49000 5 10 0 0 0 0 1
 footprint=0805
 T 48500 49300 5 10 1 1 0 0 1
-refdes=R169
+refdes=R159
 }
 C 47500 49200 1 0 0 capacitor-1.sym
 {
@@ -947,7 +947,7 @@ device=RESISTOR
 T 45000 49300 5 10 0 0 0 0 1
 footprint=1206
 T 44900 49600 5 10 1 1 0 0 1
-refdes=R153
+refdes=R143
 }
 C 45000 51000 1 0 0 resistor-2.sym
 {
@@ -956,7 +956,7 @@ device=RESISTOR
 T 45000 51000 5 10 0 0 0 0 1
 footprint=1206
 T 44900 51300 5 10 1 1 0 0 1
-refdes=R152
+refdes=R142
 }
 N 45900 51100 45900 50400 4
 N 45000 51100 45000 51400 4
@@ -983,7 +983,7 @@ device=RESISTOR
 T 45000 53800 5 10 0 0 0 0 1
 footprint=1206
 T 45200 54100 5 10 1 1 0 0 1
-refdes=R185
+refdes=R160
 }
 C 45800 53600 1 0 0 gnd-1.sym
 C 45000 52000 1 0 0 resistor-2.sym
@@ -993,7 +993,7 @@ device=RESISTOR
 T 45000 52000 5 10 0 0 0 0 1
 footprint=1206
 T 45200 52300 5 10 1 1 0 0 1
-refdes=R186
+refdes=R161
 }
 C 45800 51800 1 0 0 gnd-1.sym
 C 45000 50300 1 0 0 resistor-2.sym
@@ -1003,7 +1003,7 @@ device=RESISTOR
 T 45000 50300 5 10 0 0 0 0 1
 footprint=1206
 T 45200 50600 5 10 1 1 0 0 1
-refdes=R187
+refdes=R162
 }
 C 45800 50100 1 0 0 gnd-1.sym
 C 45000 48600 1 0 0 resistor-2.sym
@@ -1013,7 +1013,7 @@ device=RESISTOR
 T 45000 48600 5 10 0 0 0 0 1
 footprint=1206
 T 45200 48900 5 10 1 1 0 0 1
-refdes=R188
+refdes=R163
 }
 C 45800 48400 1 0 0 gnd-1.sym
 N 45000 49100 45000 48700 4
@@ -1067,7 +1067,7 @@ N 42000 50200 42200 50200 4
 N 42000 49300 42200 49300 4
 N 42000 48400 42200 48400 4
 N 42000 47500 42200 47500 4
-N 42000 47200 42000 46800 4
+N 42000 47200 42000 46600 4
 N 42000 54400 43800 54400 4
 N 42000 54100 43600 54100 4
 N 45000 45000 45000 44600 4
